@@ -1,4 +1,8 @@
 @extends('theme.master')
+@section('title','contact')
+@section('text','Contact Us')
+@section('contact-active','active')
+@section('page','contact')
 
 @section('content')
    <!-- Contact Start -->
@@ -90,3 +94,15 @@
 </div>
 <!-- Contact End -->
 @endsection
+
+
+@section('Path-area')
+  <nav aria-label="breadcrumb">
+        <ol class="breadcrumb justify-content-center">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+            <li class="breadcrumb-item text-white active" aria-current="page">@yield('page')</li>
+        </ol>
+  </nav>
+@endsection
+

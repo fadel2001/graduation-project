@@ -1,4 +1,8 @@
 @extends('theme.master')
+@section('title','Packages')
+@section('text','Packages')
+@section('package-active','active')
+@section('page','Packages')
 
 @section('content')
    <!-- Package Start -->
@@ -233,3 +237,15 @@
 </div>
 <!-- Process Start -->
 @endsection
+
+
+@section('Path-area')
+  <nav aria-label="breadcrumb">
+        <ol class="breadcrumb justify-content-center">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+            <li class="breadcrumb-item text-white active" aria-current="page">@yield('page')</li>
+        </ol>
+  </nav>
+@endsection
+

@@ -1,4 +1,8 @@
 @extends('theme.master')
+@section('title','About')
+@section('text','About Us')
+@section('about-active','active')
+@section('page','About')
 
 @section('content')
    <!-- About Start -->
@@ -50,6 +54,15 @@
 </div>
 <!-- About End -->
 
+@section('Path-area')
+  <nav aria-label="breadcrumb">
+        <ol class="breadcrumb justify-content-center">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+            <li class="breadcrumb-item text-white active" aria-current="page">@yield('page')</li>
+        </ol>
+  </nav>
+@endsection
 
 <!-- Team Start -->
 <div class="container-xxl py-5">

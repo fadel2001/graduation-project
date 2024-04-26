@@ -1,4 +1,8 @@
 @extends('theme.master')
+@section('title','Booking')
+@section('text','Booking')
+@section('booking-active','active')
+@section('page','Booking')
 
 @section('content')
    <!-- Process Start -->
@@ -51,7 +55,9 @@
         </div>
     </div>
 </div>
-<!-- Process Start -->
+
+
+
 
 
 <!-- Booking Start -->
@@ -122,4 +128,14 @@
     </div>
 </div>
 <!-- Booking Start -->
+@endsection
+
+@section('Path-area')
+  <nav aria-label="breadcrumb">
+        <ol class="breadcrumb justify-content-center">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+            <li class="breadcrumb-item text-white active" aria-current="page">@yield('page')</li>
+        </ol>
+  </nav>
 @endsection
