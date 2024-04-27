@@ -5,7 +5,7 @@
                 <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>123 Street, Amman,
                     Jordan</small>
                 <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+012 345 6789</small>
-                <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@example.com</small>
+                <small class="text-light"><i class="fa fa-envelope-open me-2"></i>Team@JUST.com</small>
             </div>
         </div>
         <div class="col-lg-4 text-center text-lg-end">
