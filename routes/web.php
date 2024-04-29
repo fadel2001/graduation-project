@@ -24,6 +24,9 @@ Route::controller(ThemeController::class)->name('theme.')->group(function () {
     Route::get('/booking', 'booking')->name('booking');
     Route::get('/about', 'about')->name('about');
     Route::get('/contact', 'contact')->name('contact');
+    Route::get('/singleBlog','singleBlog')->name('singleBlog');
+    Route::get('/login','login')->name('login');
+    Route::get('/register','register')->name('register');
 });
 
 
