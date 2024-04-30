@@ -7,8 +7,10 @@ export default {
 
 module.exports = {
     plugins: [
-      require('tailwindcss'),
-      require('@tailwindcss/postcss7-compat'),
-      // other plugins...
+        require('tailwindcss'),
+        require('@tailwindcss/postcss7-compat'),
+        require('autoprefixer'),
+        // other plugins...
     ]
-  }
+};
+
