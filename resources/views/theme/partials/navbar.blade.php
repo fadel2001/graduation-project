@@ -19,8 +19,30 @@
 
             </div>
         </div>
-       <div><a href="{{ route('register') }}" class="px-4 py-2 btn btn-primary rounded-pill">Register/login</a>
-    </div>
+        <div>
+
+            @if (!Auth::check())
+            <a href="{{ route('register') }}" class="px-4 py-2 btn btn-primary rounded-pill">Register/login</a>
+             @else
+<div>
+    <li class="nav-item submenu dropdown">
+        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
+         aria-haspopup="true" Aria-expanded="False">{{ Auth::user()->name }}</a>
+          <ul class="dropdown-menu">
+          <li class="nav-item"><a class="nav-link" href="blog-details.html">my blogs</a></li>
+
+        <form action="{{ route('logout') }}" method="post">
+        @csrf
+        <button type="submit" class="nav-link" href="blog-details.html">Logout</button>
+        </form>
+
+          </ul>
+        </li>
+
+
+</div>
+
+            @endif
 
     </nav>
 
