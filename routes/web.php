@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ThemeController;
+use App\Http\Controllers\CategoriesController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,9 +25,17 @@ Route::controller(ThemeController::class)->name('theme.')->group(function () {
     Route::get('/booking', 'booking')->name('booking');
     Route::get('/about', 'about')->name('about');
     Route::get('/contact', 'contact')->name('contact');
-    Route::get('/singleBlog','singleBlog')->name('singleBlog');
-    Route::get('/login','login')->name('login');
-    Route::get('/register','register')->name('register');
+    Route::get('/singleBlog', 'singleBlog')->name('singleBlog');
+    Route::get('/login', 'login')->name('login');
+    Route::get('/register', 'register')->name('register');
+});
+
+Route::controller(CategoriesController::class)->name('categories.')->group(function () {
+    Route::get('/adventure', 'adventure')->name('adventure');
+    Route::get('/beach', 'beach')->name('beach');
+    Route::get('/cultural', 'cultural')->name('cultural');
+    Route::get('/historical', 'historical')->name('historical');
+    Route::get('/religious', 'religious')->name('religious');
 });
 
 

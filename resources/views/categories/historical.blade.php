@@ -9,11 +9,10 @@
     <div class="container-xxl py-5 destination">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Destination</h6>
-                <h1 class="mb-5">Popular Destination</h1>
-                <h3 class="mb-5">Choose Tourism Type </h3>
+                <h6 class="section-title bg-white text-center text-primary px-3">Historical</h6>
+                <h1 class="mb-5">Popular Places</h1>
             </div>
-            {{-- <div class="row g-3">
+            <div class="row g-3">
                 <div class="col-lg-7 col-md-6">
                     <div class="row g-3">
                         <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
@@ -22,7 +21,7 @@
                                 <div class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">
                                     30% OFF</div>
                                 <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
-                                    Thailand</div>
+                                    Petra</div>
                             </a>
                         </div>
                         <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
@@ -31,7 +30,7 @@
                                 <div class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">
                                     25% OFF</div>
                                 <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
-                                    Malaysia</div>
+                                    Umm Qais "Gadara"</div>
                             </a>
                         </div>
                         <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
@@ -40,7 +39,7 @@
                                 <div class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">
                                     35% OFF</div>
                                 <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
-                                    Australia</div>
+                                    Kerak Castle</div>
                             </a>
                         </div>
                     </div>
@@ -52,24 +51,10 @@
                         <div class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">20% OFF
                         </div>
                         <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
-                            Indonesia</div>
+                            Qasr Amra</div>
                     </a>
                 </div>
-            </div> --}}
-
-            <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">
-                    <span class="fs-5">Tourism Type</span>
-                </a>
-                <div class="dropdown-menu m-0 dropdown-menu-lg">
-                    <a href="{{ route('categories.adventure') }}" class="dropdown-item active">Adventure</a>
-                    <a href="{{ route('categories.beach') }}" class="dropdown-item">Beach</a>
-                    <a href="{{ route('categories.cultural') }}" class="dropdown-item">Cultural</a>
-                    <a href="{{ route('categories.historical') }}" class="dropdown-item">Historical</a>
-                    <a href="{{ route('categories.religious') }}" class="dropdown-item">Religious</a>
-                </div>
             </div>
-
 
         </div>
     </div>
