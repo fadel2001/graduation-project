@@ -20,14 +20,14 @@
                         </div>
                         <div class="d-flex border-bottom">
                             <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-map-marker-alt text-primary me-2"></i>Thailand</small>
+                                    class="fa fa-map-marker-alt text-primary me-2"></i>Ajlon, UmmQais, Jerash</small>
                             <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
+                                    class="fa fa-calendar-alt text-primary me-2"></i>3 Jun</small>
                             <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2
                                 Person</small>
                         </div>
                         <div class="text-center p-4">
-                            <h3 class="mb-0">$149.00</h3>
+                            <h3 class="mb-0">$50.00</h3>
                             <div class="mb-3">
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
@@ -52,14 +52,14 @@
                         </div>
                         <div class="d-flex border-bottom">
                             <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-map-marker-alt text-primary me-2"></i>Indonesia</small>
+                                    class="fa fa-map-marker-alt text-primary me-2"></i>Aqaba, Petra, WadiRam</small>
                             <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2
+                                    class="fa fa-calendar-alt text-primary me-2"></i>5 Sep</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>3
                                 Person</small>
                         </div>
                         <div class="text-center p-4">
-                            <h3 class="mb-0">$139.00</h3>
+                            <h3 class="mb-0">$75.00</h3>
                             <div class="mb-3">
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
@@ -84,14 +84,14 @@
                         </div>
                         <div class="d-flex border-bottom">
                             <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-map-marker-alt text-primary me-2"></i>Malaysia</small>
+                                    class="fa fa-map-marker-alt text-primary me-2"></i>DeadSea, Debeen</small>
                             <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
+                                    class="fa fa-calendar-alt text-primary me-2"></i>25 Oct</small>
                             <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2
                                 Person</small>
                         </div>
                         <div class="text-center p-4">
-                            <h3 class="mb-0">$189.00</h3>
+                            <h3 class="mb-0">$30.00</h3>
                             <div class="mb-3">
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
