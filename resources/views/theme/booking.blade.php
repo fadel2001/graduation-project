@@ -187,6 +187,18 @@
                                             // Show the selected option's list
                                             document.getElementById("optionsList" + selectedOption).style.display = "block";
                                         }
+
+                                        function calculateCost() {
+                                            var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+                                            var selectedOptions = 0;
+                                            checkboxes.forEach(function(checkbox) {
+                                                if (checkbox.checked) {
+                                                    selectedOptions++;
+                                                }
+                                            });
+                                            var cost = selectedOptions * 20;
+                                            document.getElementById("costMessage").innerText = "Cost: $" + cost;
+                                        }
                                     </script>
                                 </div>
 
@@ -201,6 +213,8 @@
                                     </div>
                                 </div>
 
+                                <div class="col-12" id="costMessage">Cost: $0</div>
+
                                 <div class="col-12">
                                     <div class="form-floating">
                                         <textarea class="form-control bg-transparent" placeholder="Special Request" id="message" style="height: 100px"></textarea>
@@ -213,6 +227,7 @@
                                 </div>
                             </div>
                         </form>
+                        <button class="btn btn-primary" onclick="calculateCost()">Calculate Cost</button>
                     </div>
                 </div>
             </div>
