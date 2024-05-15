@@ -1,7 +1,7 @@
 <div class="p-0 container-fluid position-relative">
     <nav class="px-4 py-3 navbar navbar-expand-lg navbar-light px-lg-5 py-lg-0">
         <a href="" class="p-0 navbar-brand">
-            <h1 class="m-0 text-primary"><i class="fa fa-map-marker-alt me-3"></i>Tourist</h1>
+            <h1 class="m-0 text-primary"><i class="fa fa-map-marker-alt me-3"></i>Explore Wonders</h1>
             {{-- <img src="{{ asset('assets') }}/img/logo.png" alt="Logo"> --}}
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -22,26 +22,25 @@
         <div>
 
             @if (!Auth::check())
-            <a href="{{ route('register') }}" class="px-4 py-2 btn btn-primary rounded-pill">Register/login</a>
-             @else
-<div>
-    <li class="nav-item submenu dropdown">
-        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
-         aria-haspopup="true" Aria-expanded="False">{{ Auth::user()->name }}</a>
-          <ul class="dropdown-menu">
+                <a href="{{ route('register') }}" class="px-4 py-2 btn btn-primary rounded-pill">Register/login</a>
+            @else
+                <div>
+                    <li class="nav-item submenu dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
+                            aria-haspopup="true" Aria-expanded="False">{{ Auth::user()->name }}</a>
+                        <ul class="dropdown-menu">
 
 
-        <form action="{{ route('logout') }}" method="post">
-        @csrf
-        <button type="submit" class="nav-link" href="blog-details.html">Logout</button>
-        </form>
+                            <form action="{{ route('logout') }}" method="post">
+                                @csrf
+                                <button type="submit" class="nav-link" href="blog-details.html">Logout</button>
+                            </form>
 
-          </ul>
-        </li>
+                        </ul>
+                    </li>
 
 
-</div>
-
+                </div>
             @endif
 
     </nav>

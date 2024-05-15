@@ -16,18 +16,32 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="package-item">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="{{ asset('assets') }}/img/package-1.jpg" alt="">
+                            <div class="image-container">
+                                <a href="{{ route('places.ajloncastle') }}">
+                                    <img class="img-fluid" src="{{ asset('assets') }}/img/ajloncastle/ajloncastle2.jpg"
+                                        alt="" style="width: 100%;">
+                                </a>
+                                <a href="{{ route('places.ummqais') }}">
+                                    <img class="img-fluid" src="{{ asset('assets') }}/img/ummqais/ummqais1.jpg"
+                                        alt="" style="width: 100%;">
+                                </a>
+                                <a href="{{ route('places.ajlonforest') }}">
+                                    <img class="img-fluid" src="{{ asset('assets') }}/img/ajlonforest/ajlonforest1.jpg"
+                                        alt="" style="width: 100%;">
+                                </a>
+                            </div>
                         </div>
                         <div class="d-flex border-bottom">
                             <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-map-marker-alt text-primary me-2"></i>Ajlon, UmmQais, Jerash</small>
+                                    class="fa fa-map-marker-alt text-primary me-2"></i>AjlonCastle|UmmQais|
+                                AjlonForest</small>
                             <small class="flex-fill text-center border-end py-2"><i
                                     class="fa fa-calendar-alt text-primary me-2"></i>3 Jun</small>
                             <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2
                                 Person</small>
                         </div>
                         <div class="text-center p-4">
-                            <h3 class="mb-0">$50.00</h3>
+                            <h3 class="mb-0">$100.00</h3> $<del>120.00</del>
                             <div class="mb-3">
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
@@ -39,7 +53,7 @@
                             <div class="d-flex justify-content-center mb-2">
                                 <a href="#" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <a href="#" class="btn btn-sm btn-primary px-3"
+                                <a href="{{ route('theme.booking') }}" class="btn btn-sm btn-primary px-3"
                                     style="border-radius: 0 30px 30px 0;">Book Now</a>
                             </div>
                         </div>
@@ -48,18 +62,23 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="package-item">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="{{ asset('assets') }}/img/package-2.jpg" alt="">
+                            <a href="{{ route('places.aqaba') }}">
+                                <img class="img-fluid" src="{{ asset('assets') }}/img/aqaba/aqaba1.jpg" alt="">
+                            </a>
+                            <a href="{{ route('places.petra') }}">
+                                <img class="img-fluid" src="{{ asset('assets') }}/img/petra/petra1.jpg" alt="">
+                            </a>
                         </div>
                         <div class="d-flex border-bottom">
                             <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-map-marker-alt text-primary me-2"></i>Aqaba, Petra, WadiRam</small>
+                                    class="fa fa-map-marker-alt text-primary me-2"></i>Aqaba|Petra</small>
                             <small class="flex-fill text-center border-end py-2"><i
                                     class="fa fa-calendar-alt text-primary me-2"></i>5 Sep</small>
                             <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>3
                                 Person</small>
                         </div>
                         <div class="text-center p-4">
-                            <h3 class="mb-0">$75.00</h3>
+                            <h3 class="mb-0">$110.00</h3> $<del>120.00</del>
                             <div class="mb-3">
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
@@ -71,7 +90,7 @@
                             <div class="d-flex justify-content-center mb-2">
                                 <a href="#" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <a href="#" class="btn btn-sm btn-primary px-3"
+                                <a href="{{ route('theme.booking') }}" class="btn btn-sm btn-primary px-3"
                                     style="border-radius: 0 30px 30px 0;">Book Now</a>
                             </div>
                         </div>
@@ -80,18 +99,24 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="package-item">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="{{ asset('assets') }}/img/package-3.jpg" alt="">
+                            <a href="{{ route('places.deadsea') }}">
+                                <img class="img-fluid" src="{{ asset('assets') }}/img/deadsea/deadsea1.jpg" alt="">
+                            </a>
+                            <a href="{{ route('places.dibeenforest') }}">
+                                <img class="img-fluid" src="{{ asset('assets') }}/img/dibeenforest/dibeenforest1.jpg"
+                                    alt="">
+                            </a>
                         </div>
                         <div class="d-flex border-bottom">
                             <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-map-marker-alt text-primary me-2"></i>DeadSea, Debeen</small>
+                                    class="fa fa-map-marker-alt text-primary me-2"></i>DeadSea|DibeenForest</small>
                             <small class="flex-fill text-center border-end py-2"><i
                                     class="fa fa-calendar-alt text-primary me-2"></i>25 Oct</small>
                             <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2
                                 Person</small>
                         </div>
                         <div class="text-center p-4">
-                            <h3 class="mb-0">$30.00</h3>
+                            <h3 class="mb-0">$70.00</h3> $<del>80.00</del>
                             <div class="mb-3">
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
@@ -103,7 +128,7 @@
                             <div class="d-flex justify-content-center mb-2">
                                 <a href="#" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <a href="#" class="btn btn-sm btn-primary px-3"
+                                <a href="{{ route('theme.booking') }}" class="btn btn-sm btn-primary px-3"
                                     style="border-radius: 0 30px 30px 0;">Book Now</a>
                             </div>
                         </div>

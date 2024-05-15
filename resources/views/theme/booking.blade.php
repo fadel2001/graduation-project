@@ -190,6 +190,30 @@
 
                                             // Show the selected option's list
                                             document.getElementById("optionsList" + selectedOption).style.display = "block";
+
+                                            document.getElementById("personCount").addEventListener("change", function() {
+                                                var selectedOption = this.value;
+                                                var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+                                                var selectedOptions = 0;
+
+                                                checkboxes.forEach(function(checkbox) {
+                                                    if (checkbox.checked) {
+                                                        selectedOptions++;
+                                                    }
+                                                });
+
+                                                var baseCost = 20;
+                                                var multiplier = 1;
+
+                                                if (selectedOption === "2") {
+                                                    multiplier = 2;
+                                                } else if (selectedOption === "3") {
+                                                    multiplier = 3;
+                                                }
+
+                                                var cost = selectedOptions * baseCost * multiplier;
+                                                document.getElementById("costMessage").innerText = "Cost: $" + cost;
+                                            });
                                         }
 
                                         function calculateCost() {
