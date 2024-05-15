@@ -68,11 +68,15 @@
                     <div class="col-md-6 text-white">
                         <h6 class="text-white text-uppercase">Booking</h6>
                         <h1 class="text-white mb-4">Online Booking</h1>
-                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
-                            diam et eos. Clita erat ipsum et lorem et sit.</p>
-                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
-                            diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna
-                            dolore erat amet</p>
+                        <p class="mb-4">Welcome to our seamless travel experience brought to you by Online Booking. Say
+                            goodbye to the hassles of traditional reservation methods and hello to convenience at your
+                            fingertips.</p>
+                        <p class="mb-4">With our intuitive platform integrated into our tourist website, planning your
+                            dream getaway has never been easier. From booking accommodations in top-rated hotels to securing
+                            tickets for must-see attractions, Online Booking simplifies the journey from exploration to
+                            adventure. </p>
+                        <p class="mb-4">Join us as we embark on a journey of effortless travel planning, all with the
+                            click of a button.</p>
                         <a class="btn btn-outline-light py-3 px-5 mt-2" href="">Read More</a>
                     </div>
                     <div class="col-md-6">

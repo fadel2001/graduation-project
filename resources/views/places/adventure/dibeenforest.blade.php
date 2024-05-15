@@ -17,20 +17,20 @@
                     <div class="row g-3">
                         <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
                             <a class="position-relative d-block overflow-hidden" href="">
-                                <img class="img-fluid" src="{{ asset('assets') }}/img/wadimujib/WadiMujib1.jpg"
-                                    alt="">
+                                <img class="img-fluid" src="{{ asset('assets') }}/img/dibeenforest/dibeenforest1.jpg"
+                                    alt="" style="width: 100%;">
                             </a>
                         </div>
                         <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
                             <a class="position-relative d-block overflow-hidden" href="">
-                                <img class="img-fluid" src="{{ asset('assets') }}/img//wadimujib/WadiMujib2.jpg"
-                                    alt="">
+                                <img class="img-fluid" src="{{ asset('assets') }}/img//dibeenforest/dibeenforest2.jpg"
+                                    alt="" style="width: 100%;">
                             </a>
                         </div>
                         <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
                             <a class="position-relative d-block overflow-hidden" href="">
-                                <img class="img-fluid" src="{{ asset('assets') }}/img/wadimujib/WadiMujib3.jpg"
-                                    alt="">
+                                <img class="img-fluid" src="{{ asset('assets') }}/img/dibeenforest/dibeenforest3.jpg"
+                                    alt="" style="width: 100%;">
                             </a>
                         </div>
                     </div>
@@ -38,8 +38,8 @@
                 <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
                     <a class="position-relative d-block h-100 overflow-hidden" href="">
                         <img class="img-fluid position-absolute w-100 h-100"
-                            src="{{ asset('assets') }}/img/wadimujib/WadiMujib4.jpg" alt=""
-                            style="object-fit: cover;">
+                            src="{{ asset('assets') }}/img/dibeenforest/dibeenforest4.jpg" alt=""
+                            style="object-fit: cover; width: 100%;">
                     </a>
                 </div>
             </div>
@@ -59,7 +59,8 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="package-item">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="{{ asset('assets') }}/img/wadimujib/restaurant1.jpg" alt="">
+                            <img class="img-fluid" src="{{ asset('assets') }}/img/dibeenforest/restaurant1.jpg"
+                                alt="" style="width: 100%;">
                         </div>
                         <div class="d-flex border-bottom">
                             <small class="flex-fill text-center border-end py-2">
@@ -77,7 +78,7 @@
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                             </div>
-                            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
+                            <p>Exotic flavors from around the world.</p>
                             <div class="d-flex justify-content-center mb-2">
                                 <a href="#" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 30px 30px 30px;">Read More</a>
@@ -88,7 +89,8 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="package-item">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="{{ asset('assets') }}/img/wadimujib/restaurant2.jpg" alt="">
+                            <img class="img-fluid" src="{{ asset('assets') }}/img/dibeenforest/restaurant2.jpg"
+                                alt="" style="width: 100%;">
                         </div>
                         <div class="d-flex border-bottom">
                             <small class="flex-fill text-center border-end py-2">
@@ -105,7 +107,7 @@
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                             </div>
-                            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
+                            <p>Fusion cuisine in an intimate setting.</p>
                             <div class="d-flex justify-content-center mb-2">
                                 <a href="#" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 30px 30px 30px;">Read More</a>
@@ -116,7 +118,8 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="package-item">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="{{ asset('assets') }}/img/wadimujib/restaurant3.jpg" alt="">
+                            <img class="img-fluid" src="{{ asset('assets') }}/img/dibeenforest/restaurant3.jpg"
+                                alt="" style="width: 100%;">
                         </div>
                         <div class="d-flex border-bottom">
                             <small class="flex-fill text-center border-end py-2">
@@ -133,7 +136,7 @@
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                             </div>
-                            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
+                            <p> Authentic Italian dishes, family-style.</p>
                             <div class="d-flex justify-content-center mb-2">
                                 <a href="#" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 30px 30px 30px;">Read More</a>
@@ -157,7 +160,8 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="{{ asset('assets') }}/img/wadimujib/hotel1.jpg" alt="">
+                            <img class="img-fluid" src="{{ asset('assets') }}/img/dibeenforest/hotel1.jpg" alt=""
+                                style="width: 100%;">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -165,14 +169,15 @@
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Sunset Vista Resort</h5>
-                            <small>Designation</small>
+                            <small>Luxurious beachside retreat with full-service spa.</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="{{ asset('assets') }}/img/wadimujib/hotel2.jpg" alt="">
+                            <img class="img-fluid" src="{{ asset('assets') }}/img/dibeenforest/hotel2.jpg" alt=""
+                                style="width: 100%;">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -180,14 +185,15 @@
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Emerald Valley Hotel</h5>
-                            <small>Designation</small>
+                            <small>Cozy cabins nestled in the heart of the mountains.</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="{{ asset('assets') }}/img/wadimujib/hotel3.jpg" alt="">
+                            <img class="img-fluid" src="{{ asset('assets') }}/img/dibeenforest/hotel3.jpg" alt=""
+                                style="width: 100%;">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -195,14 +201,15 @@
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Lakeside Manor Hotel</h5>
-                            <small>Designation</small>
+                            <small>Stylish urban escape in the bustling downtown.</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="{{ asset('assets') }}/img/wadimujib/hotel4.jpg" alt="">
+                            <img class="img-fluid" src="{{ asset('assets') }}/img/dibeenforest/hotel4.jpg"
+                                alt="" style="width: 100%;">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -210,7 +217,7 @@
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Royal Crest Lodge</h5>
-                            <small>Designation</small>
+                            <small>Tranquil riverside accommodations with scenic views.</small>
                         </div>
                     </div>
                 </div>

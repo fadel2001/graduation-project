@@ -36,8 +36,8 @@
                             </a>
                         </div>
                         <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.4s">
-                            <a class="position-relative d-block overflow-hidden" href="{{ route('places.ammancitadel') }}">
-                                <img class="img-fluid" src="{{ asset('assets') }}/img/ajloncastle/ajloncastle1.jpeg"
+                            <a class="position-relative d-block overflow-hidden" href="{{ route('places.ajloncastle') }}">
+                                <img class="img-fluid" src="{{ asset('assets') }}/img/ajloncastle/ajloncastle2.jpg"
                                     alt="">
                                 <div class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">
                                     25% OFF</div>

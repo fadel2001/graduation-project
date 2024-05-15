@@ -17,17 +17,18 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="{{ asset('assets') }}/img/about.jpg"
+                        <img class="img-fluid position-absolute w-100 h-100" src="{{ asset('assets') }}/img/welcome.jpg"
                             alt="" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
                     <h1 class="mb-4">Welcome to <span class="text-primary">Tourist</span></h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
-                        eos. Clita erat ipsum et lorem et sit.</p>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
-                        eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <p class="mb-4">Welcome to our seamless travel experience brought to you by Online Booking. Say
+                        goodbye to the hassles of traditional reservation methods and hello to convenience at your
+                        fingertips.</p>
+                    <p class="mb-4">Your gateway to effortless travel planning. Embedded within our tourist website, this
+                        intuitive platform simplifies reservations for accommodations and attractions</p>
                     <div class="row gy-2 gx-4 mb-4">
                         <div class="col-sm-6">
                             <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>First Class Flights</p>
@@ -75,7 +76,7 @@
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Full Name</h5>
+                            <h5 class="mb-0">Fadel Batayneh</h5>
                             <small>Designation</small>
                         </div>
                     </div>
@@ -91,7 +92,7 @@
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Full Name</h5>
+                            <h5 class="mb-0">Nada Al-Omari</h5>
                             <small>Designation</small>
                         </div>
                     </div>
@@ -107,7 +108,7 @@
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Full Name</h5>
+                            <h5 class="mb-0">Saja Obidat</h5>
                             <small>Designation</small>
                         </div>
                     </div>
@@ -123,7 +124,7 @@
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Full Name</h5>
+                            <h5 class="mb-0">Ikram Al-Mazari</h5>
                             <small>Designation</small>
                         </div>
                     </div>
@@ -144,7 +145,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="{{ asset('assets') }}/img/royal.jpg" alt="">
+                            <img class="img-fluid" src="{{ asset('assets') }}/img/airline/royal.jpg" alt="">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -159,7 +160,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="{{ asset('assets') }}/img/jordan.jpg" alt="">
+                            <img class="img-fluid" src="{{ asset('assets') }}/img/airline/jordan.jpg" alt="">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -174,7 +175,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="{{ asset('assets') }}/img/wizz.jpg" alt="">
+                            <img class="img-fluid" src="{{ asset('assets') }}/img/airline/wizz.jpg" alt="">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -189,7 +190,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="{{ asset('assets') }}/img/arabia.jpg" alt="">
+                            <img class="img-fluid" src="{{ asset('assets') }}/img/airline/arabia.jpg" alt="">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
