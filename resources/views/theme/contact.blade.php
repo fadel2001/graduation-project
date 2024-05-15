@@ -1,108 +1,64 @@
 @extends('theme.master')
 @section('title','contact')
-@section('text','Contact Us')
 @section('contact-active','active')
-@section('page','contact')
 
+@include('theme.partials.head',['title' => 'Contact'])
 @section('content')
-   <!-- Contact Start -->
-   <div class="container-xxl py-5">
+
+  <!-- ================ contact section start ================= -->
+  <section class="section-margin--small section-margin">
     <div class="container">
-        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h6 class="section-title bg-white text-center text-primary px-3">Contact Us</h6>
-            <h1 class="mb-5">Contact For Any Query</h1>
+      <div class="row">
+        <div class="mb-4 col-md-4 col-lg-3 mb-md-0">
+          <div class="media contact-info">
+            <span class="contact-info__icon"><i class="ti-home"></i></span>
+            <div class="media-body">
+              <h3>Jordan-Amman</h3>
+            </div>
+          </div>
+          <div class="media contact-info">
+            <span class="contact-info__icon"><i class="ti-headphone"></i></span>
+            <div class="media-body">
+              <h3><a href="tel:454545654"> +(962) 779436518</a></h3>
+              <p>Sunday to Friday  (9am to 6pm)</p>
+            </div>
+          </div>
+          <div class="media contact-info">
+            <span class="contact-info__icon"><i class="ti-email"></i></span>
+            <div class="media-body">
+              <h3><a href="mailto:support@colorlib.com">Team@JUST.com</a></h3>
+              <p>Send us your query anytime!</p>
+            </div>
+          </div>
         </div>
-        <div class="row g-4">
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <h5>Get In Touch</h5>
-                <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam
-                    et eos</p>
-                <div class="d-flex align-items-center mb-4">
-                    <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary"
-                        style="width: 50px; height: 50px;">
-                        <i class="fa fa-map-marker-alt text-white"></i>
-                    </div>
-                    <div class="ms-3">
-                        <h5 class="text-primary">Office</h5>
-                        <p class="mb-0">123 Street, New York, USA</p>
-                    </div>
+        <div class="col-md-8 col-lg-9">
+          <form action="#/" class="form-contact contact_form" action="{{ route('theme.contact.store') }}" method="POST" id="contactForm" novalidate="novalidate">
+           @csrf
+            <div class="row">
+              <div class="col-lg-5">
+                <div class="form-group">
+                  <input class="form-control" name="name" id="name" type="text" placeholder="Enter your name">
                 </div>
-                <div class="d-flex align-items-center mb-4">
-                    <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary"
-                        style="width: 50px; height: 50px;">
-                        <i class="fa fa-phone-alt text-white"></i>
-                    </div>
-                    <div class="ms-3">
-                        <h5 class="text-primary">Mobile</h5>
-                        <p class="mb-0">+012 345 67890</p>
-                    </div>
+                <div class="form-group">
+                  <input class="form-control" name="email" id="email" type="email" placeholder="Enter email address">
                 </div>
-                <div class="d-flex align-items-center">
-                    <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary"
-                        style="width: 50px; height: 50px;">
-                        <i class="fa fa-envelope-open text-white"></i>
-                    </div>
-                    <div class="ms-3">
-                        <h5 class="text-primary">Email</h5>
-                        <p class="mb-0">info@example.com</p>
-                    </div>
+                <div class="form-group">
+                  <input class="form-control" name="subject" id="subject" type="text" placeholder="Enter Subject">
                 </div>
+              </div>
+              <div class="col-lg-7">
+                <div class="form-group">
+                    <textarea class="form-control different-control w-100" name="message" id="message" cols="30" rows="5" placeholder="Enter Message"></textarea>
+                </div>
+              </div>
             </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                <iframe class="position-relative rounded w-100 h-100"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
-                    frameborder="0" style="min-height: 300px; border:0;" allowfullscreen="" aria-hidden="false"
-                    tabindex="0"></iframe>
+            <div class="mt-5 text-center form-group text-md-right">
+              <button type="submit" class="button button--active button-contactForm">Send Message</button>
             </div>
-            <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-                <form>
-                    <div class="row g-3">
-                        <div class="col-md-6">
-                            <div class="form-floating">
-                                <input type="text" class="form-control" id="name"
-                                    placeholder="Your Name">
-                                <label for="name">Your Name</label>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-floating">
-                                <input type="email" class="form-control" id="email"
-                                    placeholder="Your Email">
-                                <label for="email">Your Email</label>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="form-floating">
-                                <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                <label for="subject">Subject</label>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="form-floating">
-                                <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
-                                <label for="message">Message</label>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
+          </form>
         </div>
+      </div>
     </div>
-</div>
-<!-- Contact End -->
+  </section>
+	<!-- ================ contact section end ================= -->
 @endsection
-
-
-@section('Path-area')
-  <nav aria-label="breadcrumb">
-        <ol class="breadcrumb justify-content-center">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item"><a href="#">Pages</a></li>
-            <li class="breadcrumb-item text-white active" aria-current="page">@yield('page')</li>
-        </ol>
-  </nav>
-@endsection
-

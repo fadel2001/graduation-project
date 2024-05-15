@@ -5,6 +5,13 @@ use App\Http\Controllers\ThemeController;
 use App\Http\Controllers\CategoriesController;
 use App\Http\Controllers\PlacesController;
 use Illuminate\Support\Facades\Route;
+// routes/web.php
+
+use App\Http\Controllers\YourController;
+
+Route::post('/contact', [ThemeController::class, 'store'])->name('theme.contact.store');
+Route::post('/contact', [ThemeController::class, 'store'])->name('theme.contact.store')->middleware('web');
+
 
 /*
 |--------------------------------------------------------------------------
@@ -43,6 +50,7 @@ Route::controller(CategoriesController::class)->name('categories.')->group(funct
 
 // This route for redirect to the places
 Route::controller(PlacesController::class)->name('places.')->group(function () {
+    Route::post('/contact/store','register')->name('contact.store');
     // adventure
     Route::get('/wadimujib', 'wadimujib')->name('wadimujib');
     Route::get('/ajlonforest', 'ajlonforest')->name('ajlonforest');
@@ -73,6 +81,8 @@ Route::controller(PlacesController::class)->name('places.')->group(function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
+
+
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

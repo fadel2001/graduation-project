@@ -14,23 +14,28 @@
                 <h3 class="mb-5">Choose Tourism Type </h3>
             </div>
 
-            <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">
-                    <span class="fs-5">Tourism Type</span>
-                </a>
-                <div class="dropdown-menu m-0 dropdown-menu-lg">
-                    <a href="{{ route('categories.adventure') }}" class="dropdown-item active">Adventure</a>
-                    <a href="{{ route('categories.beach') }}" class="dropdown-item">Beach</a>
-                    <a href="{{ route('categories.cultural') }}" class="dropdown-item">Cultural</a>
-                    <a href="{{ route('categories.historical') }}" class="dropdown-item">Historical</a>
-                    <a href="{{ route('categories.religious') }}" class="dropdown-item">Religious</a>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="text-center"> <!-- Center the dropdown menu -->
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" style="background-color: #669933; color: black; padding: 10px 20px;"> <!-- Apply background, text color, and padding here -->
+                                <span class="fs-5">Tourism Type</span>
+                            </a>
+                            <div class="dropdown-menu m-0 dropdown-menu-lg"> <!-- Apply background color here -->
+                                <a href="{{ route('categories.adventure') }}" class="dropdown-item active" style="color: black;">Adventure</a> <!-- Apply text color here -->
+                                <a href="{{ route('categories.beach') }}" class="dropdown-item" style="color: black;">Beach</a> <!-- Apply text color here -->
+                                <a href="{{ route('categories.cultural') }}" class="dropdown-item" style="color: black;">Cultural</a> <!-- Apply text color here -->
+                                <a href="{{ route('categories.historical') }}" class="dropdown-item" style="color: black;">Historical</a> <!-- Apply text color here -->
+                                <a href="{{ route('categories.religious') }}" class="dropdown-item" style="color: black;">Religious</a> <!-- Apply text color here -->
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-
         </div>
     </div>
-    <!-- Destination Start -->
+    <!-- Destination End -->
 @endsection
 
 @section('Path-area')

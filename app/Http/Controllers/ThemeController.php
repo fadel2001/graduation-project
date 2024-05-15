@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Contact;
 use Illuminate\Http\Request;
+use Illuminate\Validation\Validator;
+
 
 class ThemeController extends Controller
 {
@@ -38,6 +41,7 @@ class ThemeController extends Controller
 
     public function contact()
     {
+
         return view('theme.contact');
     }
     public function singleBlog()
@@ -51,5 +55,22 @@ class ThemeController extends Controller
     public function register()
     {
         return view('register');
-    }
+
+}
+
+
+public function store(Request $request)
+{
+
+    $validateData=$request->validate([
+        'name'=>'required'|'string'|'min:5',
+]);
+dd($validateData);
+
+
+}
+
+
+
+
 }
