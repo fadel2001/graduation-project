@@ -62,14 +62,19 @@ class ThemeController extends Controller
 public function store(Request $request)
 {
 
-    $validateData=$request->validate([
-        'name'=>'required'|'string'|'min:5',
-]);
-dd($validateData);
 
-
+   $validatedData= $request->validate([
+       // 'name'=>'required|string|min:5',
+        //'email'=>'required|email',
+        'subject'=>"min:6",
+        'name' => 'required|string|min:4|max:10',
+        'email' => 'required|string|email|max:255',
+        'password' => 'string|min:8|confirmed',
+        'message' => 'string|min:15',
+    ]);
+   // dd($validatedData);
+Contact::create($validatedData);
 }
-
 
 
 

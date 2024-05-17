@@ -36,6 +36,9 @@ Route::controller(ThemeController::class)->name('theme.')->group(function () {
     Route::get('/singleBlog', 'singleBlog')->name('singleBlog');
     Route::get('/login', 'login')->name('login');
     Route::get('/register', 'register')->name('register');
+    Route::post('/contact/store','store')->name('contact.store');
+    Route::post('/register/store','store')->name('register.store');
+    Route::post('/login/store','store')->name('logoin.store');
 });
 
 // This route for redirect to the Categories
