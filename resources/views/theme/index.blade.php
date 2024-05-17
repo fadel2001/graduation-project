@@ -110,7 +110,7 @@
                             <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Saja Obidat</h5>
+                            <h5 class="mb-0">Saja Obiedat</h5>
                             <small>Designation</small>
                         </div>
                     </div>
