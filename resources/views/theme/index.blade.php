@@ -17,40 +17,42 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="{{ asset('assets') }}/img/welcome.jpg"
+                        <img class="img-fluid position-absolute w-110 h-110" src="{{ asset('assets') }}/img/welcome.jpeg"
                             alt="" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
-                    <h1 class="mb-4">Welcome to <span class="text-primary">Tourist</span></h1>
-                    <p class="mb-4">Welcome to our seamless travel experience brought to you by Online Booking. Say
-                        goodbye to the hassles of traditional reservation methods and hello to convenience at your
-                        fingertips.</p>
-                    <p class="mb-4">Your gateway to effortless travel planning. Embedded within our tourist website, this
-                        intuitive platform simplifies reservations for accommodations and attractions</p>
+                    <h1 class="mb-4">Welcome to <span class="text-primary">Explore Wonder</span></h1>
+                    <p class="mb-4">A website dedicated to tourism in Jordan providing comprehensive information about tourist attractions, events, accommodation services and restaurants. With a user-friendly design and offering content in English, the website includes visitor reviews, information on transportation and recreational activities, promotion of cultural and natural experiences in Jordan, and tourist-favorite restaurants Which contributes to attracting visitors and enhancing their tourism experience.</p>
+                    <p class="mb-4">ًWe like you ,are very upset about committing to a mandatory travel program. That is why we have given each person the opportunity to draw his own journey and write his story with his own hand.</p>
+
                     <div class="row gy-2 gx-4 mb-4">
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>First Class Flights</p>
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Carefully selected packages
+                            </p>
                         </div>
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Handpicked Hotels</p>
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Constantly updated information</p>
                         </div>
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>5 Star Accommodations</p>
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>5 Star Accommodations
+                            </p>
                         </div>
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Latest Model Vehicles</p>
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Latest Model Vehicles
+                            </p>
                         </div>
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>150 Premium City Tours</p>
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Premium
+                                Tours</p>
                         </div>
                         <div class="col-sm-6">
                             <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>24/7 Service</p>
                         </div>
                     </div>
-                    <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
-                </div>
+                    <p class="text-center"><span class="highlight" style="background-color: lightgreen;">We hope that all stories end in beautiful way</span></p>
+
             </div>
         </div>
     </div>
