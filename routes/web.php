@@ -39,6 +39,7 @@ Route::controller(ThemeController::class)->name('theme.')->group(function () {
     Route::post('/contact/store','store')->name('contact.store');
     Route::post('/register/store','R')->name('register.R');
     Route::post('/login/store','L')->name('login.L');
+    Route::post('/booking/store','B')->name('booking.B');
 });
 
 // This route for redirect to the Categories

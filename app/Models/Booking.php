@@ -8,6 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Booking extends Model
 {
     protected $fillable = [
-        'name', 'email', 'password'
+        'name', 'email', 'destination','numofpeople','cost','request'
     ];
 }

@@ -81,18 +81,19 @@
                     </div>
                     <div class="col-md-6">
                         <h1 class="text-white mb-4">Book A Tour</h1>
-                        <form>
+                        <form action="{{ route('theme.booking.B') }}" method="POST" >
+                            @csrf
                             <div class="row g-3">
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control bg-transparent" id="name"
+                                        <input type="text" class="form-control bg-transparent" id="name" name="name"
                                             placeholder="Your Name">
                                         <label for="name">Your Name</label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="email" class="form-control bg-transparent" id="email"
+                                        <input type="email" class="form-control bg-transparent" id="email" name="email"
                                             placeholder="Your Email">
                                         <label for="email">Your Email</label>
                                     </div>
@@ -100,7 +101,7 @@
 
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <select class="form-select bg-transparent" id="select1" onchange="showOptions()">
+                                        <select class="form-select bg-transparent" id="select1" name="destination" onchange="showOptions()">
                                             <option value="1">Adventure</option>
                                             <option value="2">Beach</option>
                                             <option value="3">Cultural</option>
@@ -232,7 +233,7 @@
 
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <select class="form-select bg-transparent" id="personCount">
+                                        <select class="form-select bg-transparent" id="personCount" name="numofpeople">
                                             <option value="1">1 Person</option>
                                             <option value="2">2 Persons</option>
                                             <option value="3">more than</option>
@@ -241,11 +242,11 @@
                                     </div>
                                 </div>
 
-                                <div class="col-12" id="costMessage">Cost: $0</div>
+                                <div class="col-12" id="costMessage" name="cost">Cost: $0</div>
 
                                 <div class="col-12">
                                     <div class="form-floating">
-                                        <textarea class="form-control bg-transparent" placeholder="Special Request" id="message" style="height: 100px"></textarea>
+                                        <textarea class="form-control bg-transparent" placeholder="Special Request" id="message" name="request" style="height: 100px"></textarea>
                                         <label for="message">Special Request</label>
                                     </div>
                                 </div>

@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Booking;
 use App\Models\Contact;
+use App\Models\Login;
 use App\Models\Register;
 use Illuminate\Http\Request;
 use Illuminate\Validation\Validator;
@@ -67,11 +69,10 @@ public function store(Request $request)
 
    $validatedData= $request->validate([
 
-        'subject'=>"min:6",
+        'subject'=>"string|max:20",
         'name' => 'required|string|min:4|max:10',
-        'email' => 'required|string|email|max:255',
-        //'password' => 'string|min:8|confirmed',
-        'message' => 'string|min:15',
+        'email' => 'required|email|max:255',
+        'message' => 'string|max:60',
     ]);
    // dd($validatedData);
 Contact::create($validatedData);
@@ -83,7 +84,7 @@ public function R(Request $request)
     $validatedData = $request->validate([
         'name' => 'required|string|min:4|max:10',
         'email' => 'required|string|email|max:255|unique:registers,email',
-        'password' => 'required|string|min:8|confirmed',
+        'password' => 'required|min:6|confirmed',
 
     ]);
 
@@ -98,23 +99,35 @@ public function R(Request $request)
     return redirect()->intended('/')->with('status');
 }
 public function L(Request $request)
-    {
-        // Validate the login credentials
-        $credentials = $request->validate([
-            'email' => 'required|email',
-            'password' => 'required|string',
-        ]);
+{
 
-        // Attempt to log the user in
-        if (Auth::attempt($credentials)) {
-            // Authentication was successful
-            return redirect()->intended('/')->with('status', 'You are logged in successfully!');
-        }
 
-        // Authentication failed
-        return back()->withErrors([
-            'email' => 'These credentials do not match our records.',
-        ])->withInput($request->only('email'));
-    }
+   $validatedData= $request->validate([
+
+    'email' => 'required|string|email|max:255|unique:registers,email',
+    'password' => 'required|min:6|confirmed',
+    ]);
+
+Login::create($validatedData);
+return redirect()->intended('/')->with('status');
+}
+
+public function B(Request $request)
+{
+
+
+   $validatedData= $request->validate([
+    'name' => 'required|string|max:255',
+    'email' => 'required|email|max:255',
+    'destination' => 'required|string|max:255',
+    'numofpeople' => 'required|integer|min:1',
+    'cost' => 'nullable|numeric|min:0',
+    'request' => 'nullable|string|max:255',
+
+    ]);
+
+Booking::create($validatedData);
+return redirect()->intended('/')->with('hi');
+}
 
 }
