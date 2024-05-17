@@ -81,27 +81,28 @@
                     </div>
                     <div class="col-md-6">
                         <h1 class="text-white mb-4">Book A Tour</h1>
-                        <form action="{{ route('theme.booking.B') }}" method="POST" >
+                        <form action="{{ route('theme.booking.B') }}" method="POST">
                             @csrf
                             <div class="row g-3">
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control bg-transparent" id="name" name="name"
-                                            placeholder="Your Name">
+                                        <input type="text" class="form-control bg-transparent" id="name"
+                                            name="name" placeholder="Your Name">
                                         <label for="name">Your Name</label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="email" class="form-control bg-transparent" id="email" name="email"
-                                            placeholder="Your Email">
+                                        <input type="email" class="form-control bg-transparent" id="email"
+                                            name="email" placeholder="Your Email">
                                         <label for="email">Your Email</label>
                                     </div>
                                 </div>
 
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <select class="form-select bg-transparent" id="select1" name="destination" onchange="showOptions()">
+                                        <select class="form-select bg-transparent" id="select1" name="destination"
+                                            onchange="showOptions()">
                                             <option value="1">Adventure</option>
                                             <option value="2">Beach</option>
                                             <option value="3">Cultural</option>
@@ -121,7 +122,7 @@
                                             <input type="checkbox" id="dibeenforest" name="dibeenforest">
                                             <label for="dibeenforest">Dibeen Forest</label><br>
                                             <input type="checkbox" id="danabiospher" name="danabiospher">
-                                            <label for="danabiospher">dana biospher</label><br>
+                                            <label for="danabiospher">Dana Biosphere</label><br>
                                         </div>
                                     </div>
 
@@ -191,41 +192,17 @@
 
                                             // Show the selected option's list
                                             document.getElementById("optionsList" + selectedOption).style.display = "block";
-
-                                            document.getElementById("personCount").addEventListener("change", function() {
-                                                var selectedOption = this.value;
-                                                var checkboxes = document.querySelectorAll('input[type="checkbox"]');
-                                                var selectedOptions = 0;
-
-                                                checkboxes.forEach(function(checkbox) {
-                                                    if (checkbox.checked) {
-                                                        selectedOptions++;
-                                                    }
-                                                });
-
-                                                var baseCost = 20;
-                                                var multiplier = 1;
-
-                                                if (selectedOption === "2") {
-                                                    multiplier = 2;
-                                                } else if (selectedOption === "3") {
-                                                    multiplier = 3;
-                                                }
-
-                                                var cost = selectedOptions * baseCost * multiplier;
-                                                document.getElementById("costMessage").innerText = "Cost: $" + cost;
-                                            });
                                         }
 
                                         function calculateCost() {
-                                            var checkboxes = document.querySelectorAll('input[type="checkbox"]');
-                                            var selectedOptions = 0;
-                                            checkboxes.forEach(function(checkbox) {
-                                                if (checkbox.checked) {
-                                                    selectedOptions++;
-                                                }
-                                            });
-                                            var cost = selectedOptions * 20;
+                                            var checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+                                            var selectedOptions = checkboxes.length;
+
+                                            var personCount = document.getElementById("personCount").value;
+                                            var multiplier = parseInt(personCount);
+
+                                            var baseCost = 20;
+                                            var cost = selectedOptions * baseCost * multiplier;
                                             document.getElementById("costMessage").innerText = "Cost: $" + cost;
                                         }
                                     </script>
@@ -236,7 +213,7 @@
                                         <select class="form-select bg-transparent" id="personCount" name="numofpeople">
                                             <option value="1">1 Person</option>
                                             <option value="2">2 Persons</option>
-                                            <option value="3">more than</option>
+                                            <option value="3">3 or more</option>
                                         </select>
                                         <label for="personCount">Number of Persons</label>
                                     </div>
@@ -246,13 +223,13 @@
 
                                 <div class="col-12">
                                     <div class="form-floating">
-                                        <textarea class="form-control bg-transparent" placeholder="Special Request" id="message" name="request" style="height: 100px"></textarea>
+                                        <textarea class="form-control bg-transparent" placeholder="Special Request" id="message" name="request"
+                                            style="height: 100px"></textarea>
                                         <label for="message">Special Request</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-outline-light w-100 py-3" type="submit">Book
-                                        Now</button>
+                                    <button class="btn btn-outline-light w-100 py-3" type="submit">Book Now</button>
                                 </div>
                             </div>
                         </form>
