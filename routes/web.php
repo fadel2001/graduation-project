@@ -5,13 +5,6 @@ use App\Http\Controllers\ThemeController;
 use App\Http\Controllers\CategoriesController;
 use App\Http\Controllers\PlacesController;
 use Illuminate\Support\Facades\Route;
-// routes/web.php
-
-use App\Http\Controllers\YourController;
-
-Route::post('/contact', [ThemeController::class, 'store'])->name('theme.contact.store');
-Route::post('/contact', [ThemeController::class, 'store'])->name('theme.contact.store')->middleware('web');
-
 
 /*
 |--------------------------------------------------------------------------
@@ -34,13 +27,21 @@ Route::controller(ThemeController::class)->name('theme.')->group(function () {
     Route::get('/about', 'about')->name('about');
     Route::get('/contact', 'contact')->name('contact');
     Route::get('/singleBlog', 'singleBlog')->name('singleBlog');
-    Route::get('/login', 'login')->name('login');
-    Route::get('/register', 'register')->name('register');
-    Route::post('/contact/store','store')->name('contact.store');
-    Route::post('/register/store','R')->name('register.R');
-    Route::post('/login/store','L')->name('login.L');
-    Route::post('/booking/store','B')->name('booking.B');
+
+    // Change these routes to use POST method for form submissions
+    Route::post('/contact/store', 'store')->name('contact.store');
+    Route::post('/booking/store', 'B')->name('booking.B');
 });
+
+Route::controller(ThemeController::class)->name('auth.')->group(function () {
+    Route::get('/login', 'login')->name('login.store');
+    Route::get('/register', 'register')->name('register.store');
+
+    // Change these routes to use POST method for form submissions
+    Route::post('/register/store', 'registerStore')->name('register.store');
+    Route::post('/login/store', 'loginStore')->name('login.store');
+});
+
 
 // This route for redirect to the Categories
 Route::controller(CategoriesController::class)->name('categories.')->group(function () {
@@ -51,11 +52,9 @@ Route::controller(CategoriesController::class)->name('categories.')->group(funct
     Route::get('/religious', 'religious')->name('religious');
 });
 
-
 // This route for redirect to the places
 Route::controller(PlacesController::class)->name('places.')->group(function () {
-    Route::post('/contact/store','register')->name('contact.store');
-    // adventure
+    // Ensure there are no conflicting routes here
     Route::get('/wadimujib', 'wadimujib')->name('wadimujib');
     Route::get('/ajlonforest', 'ajlonforest')->name('ajlonforest');
     Route::get('/danareserve', 'danareserve')->name('danareserve');
@@ -63,30 +62,26 @@ Route::controller(PlacesController::class)->name('places.')->group(function () {
     // Beach
     Route::get('/aqaba', 'aqaba')->name('aqaba');
     Route::get('/deadsea', 'deadsea')->name('deadsea');
-    // cultural
+    // Cultural
     Route::get('/ajloncastle', 'ajloncastle')->name('ajloncastle');
     Route::get('/ammancitadel', 'ammancitadel')->name('ammancitadel');
     Route::get('/ovalplaza', 'ovalplaza')->name('ovalplaza');
     Route::get('/shobakcastle', 'shobakcastle')->name('shobakcastle');
-    // historical
+    // Historical
     Route::get('/karakcastle', 'karakcastle')->name('karakcastle');
     Route::get('/petra', 'petra')->name('petra');
     Route::get('/qasramra', 'qasramra')->name('qasramra');
     Route::get('/ummqais', 'ummqais')->name('ummqais');
-    // religious
+    // Religious
     Route::get('/almaghtas', 'almaghtas')->name('almaghtas');
     Route::get('/baptismsite', 'baptismsite')->name('baptismsite');
     Route::get('/mountnebo', 'mountnebo')->name('mountnebo');
     Route::get('/nabimusasite', 'nabimusasite')->name('nabimusasite');
 });
 
-
-
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
-
-
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

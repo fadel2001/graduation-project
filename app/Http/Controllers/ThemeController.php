@@ -9,6 +9,9 @@ use App\Models\Register;
 use Illuminate\Http\Request;
 use Illuminate\Validation\Validator;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
+use App\Models\User;
+
 
 
 class ThemeController extends Controller
@@ -64,52 +67,50 @@ class ThemeController extends Controller
 
     public function store(Request $request)
     {
-
-
         $validatedData = $request->validate([
-
-            'subject' => "string|max:20",
-            'name' => 'required|string|min:4|max:10',
+            'subject' => 'string|max:20',
+            'name' => 'required|string|min:4',
             'email' => 'required|email|max:255',
             'message' => 'string|max:60',
         ]);
-        // dd($validatedData);
+
         Contact::create($validatedData);
         return redirect('contact')->with('status', 'your message has been sent successfully!');
     }
 
-    public function R(Request $request)
+
+    public function registerStore(Request $request)
     {
         $validatedData = $request->validate([
             'name' => 'required|string|min:4|max:10',
             'email' => 'required|string|email|max:255|unique:registers,email',
             'password' => 'required|min:6|confirmed',
-
         ]);
 
-
-        $validatedData['password'] = bcrypt($validatedData['password']);
-
+        $validatedData['password'] = Hash::make($validatedData['password']);
         Register::create($validatedData);
-
-
-
-
-        return redirect()->intended('/')->with('status');
+        User::create($validatedData);
+        return redirect('/login')->with('status', 'Registration successful! Please login.');
     }
-    public function L(Request $request)
+    public function loginStore(Request $request)
     {
-
-
+        // Validate the incoming request data
         $validatedData = $request->validate([
-
-            'email' => 'required|string|email|max:255|unique:registers,email',
-            'password' => 'required|min:6|confirmed',
+            'email' => 'required|email',
+            'password' => 'required|string|min:8',
         ]);
 
-        Login::create($validatedData);
-        return redirect()->intended('/')->with('status');
+        // Attempt to log the user in
+        if (Auth::attempt(['email' => $validatedData['email'], 'password' => $validatedData['password']])) {
+            // Authentication was successful
+            Login::create($validatedData);
+            return redirect()->intended('/dashboard')->with('status', 'Login successful!');
+        } else {
+            // Authentication failed, redirect back with an error message
+            return back()->withErrors(['email' => 'Invalid credentials'])->withInput();
+        }
     }
+
 
     public function B(Request $request)
     {
