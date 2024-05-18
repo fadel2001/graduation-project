@@ -51,7 +51,7 @@
                 <div class="text-center col-lg-10 pt-lg-5 mt-lg-5">
                     <h1 class="mb-3 text-white display-3 animated slideInDown">@yield('text')</h1>
 
-                    @yield('search-area')
+
 
                     @yield('Path-area')
                 </div>
