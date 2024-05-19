@@ -164,8 +164,8 @@
                                 style="width: 100%;">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.facebook.com/share/oe1yeThp6VxijD3W/?mibextid=LQQJ4d"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.instagram.com/gerasahotel?igsh=MXEzczBjbW5oNDV0Mg=="><i class="fab fa-instagram"></i></a>
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Sunset Vista Resort</h5>
@@ -180,8 +180,8 @@
                                 style="width: 100%;">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.facebook.com/share/oe1yeThp6VxijD3W/?mibextid=LQQJ4d"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.facebook.com/share/hKSUCCU4cZ6KYcAL/?mibextid=LQQJ4d"><i class="fab fa-instagram"></i></a>
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Emerald Valley Hotel</h5>
@@ -196,8 +196,8 @@
                                 style="width: 100%;">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.facebook.com/FourSeasons?mibextid=LQQJ4d"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.instagram.com/fsamman?igsh=MW96MnBuMmVxbGpueA=="><i class="fab fa-instagram"></i></a>
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Lakeside Manor Hotel</h5>
@@ -212,8 +212,8 @@
                                 style="width: 100%;">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.facebook.com/LeRoyalAmman?mibextid=LQQJ4d"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.instagram.com/leroyalamman_?igsh=aHVzcThvN2VhZDc1"><i class="fab fa-instagram"></i></a>
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Royal Crest Lodge</h5>

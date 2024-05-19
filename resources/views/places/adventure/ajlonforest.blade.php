@@ -163,8 +163,8 @@
                                 style="width: 100%;">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square mx-1" href="https://m.facebook.com/kempinskihotels"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.instagram.com/kempinskiaqaba?igsh=bjk5dXh5enpua2N2"><i class="fab fa-instagram"></i></a>
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Sunset Vista Resort</h5>
@@ -179,8 +179,8 @@
                                 style="width: 100%;">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square mx-1" href="https://m.facebook.com/sheratonamman"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.instagram.com/sheratonamman?igsh=NHo0czV1a3I2dG9n"><i class="fab fa-instagram"></i></a>
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Emerald Valley Hotel</h5>
@@ -195,8 +195,8 @@
                                 style="width: 100%;">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square mx-1" href="https://m.facebook.com/AmmanRotana"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.instagram.com/sheratonamman?igsh=NHo0czV1a3I2dG9n"><i class="fab fa-instagram"></i></a>
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Lakeside Manor Hotel</h5>
@@ -211,8 +211,8 @@
                                 style="width: 100%;">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square mx-1" href="https://m.facebook.com/AmmanRotana"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.instagram.com/ammanrotana?igsh=NXlsNHRzZTJ5Zjlh"><i class="fab fa-instagram"></i></a>
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Royal Crest Lodge</h5>
@@ -224,6 +224,23 @@
         </div>
     </div>
     <!-- Hotel End -->
+
+    <!-- location Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Location</h6>
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="row g-4">
+                    <div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay="0.3s">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3369.455078273594!2d35.7612222751545!3d32.38016070416228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151c7d17cb36d133%3A0x53bba70d2502bf6e!2z2YXYrdmF2YrYqSDYutin2KjYp9iqINi52KzZhNmI2YY!5e0!3m2!1sen!2sbd!4v1716150492886!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- location End -->
 
 @endsection
 
