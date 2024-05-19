@@ -88,8 +88,8 @@ class ThemeController extends Controller
         ]);
 
         $validatedData['password'] = Hash::make($validatedData['password']);
-        Register::create($validatedData);
-        User::create($validatedData);
+        Register::create($validatedData); // add the data to the Register table on database
+        User::create($validatedData);   // add the data to the User table on database
         return redirect('/login')->with('status', 'Registration successful! Please login.');
     }
     public function loginStore(Request $request)
@@ -103,8 +103,8 @@ class ThemeController extends Controller
         // Attempt to log the user in
         if (Auth::attempt(['email' => $validatedData['email'], 'password' => $validatedData['password']])) {
             // Authentication was successful
-            Login::create($validatedData);
-            return redirect()->intended('/dashboard')->with('status', 'Login successful!');
+            Login::create($validatedData);  // add the data to the login table on database
+            return redirect()->intended('/')->with('status', 'Login successful!');
         } else {
             // Authentication failed, redirect back with an error message
             return back()->withErrors(['email' => 'Invalid credentials'])->withInput();
