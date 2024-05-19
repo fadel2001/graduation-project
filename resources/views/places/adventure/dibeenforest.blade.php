@@ -81,7 +81,7 @@
                             <p>Exotic flavors from around the world.</p>
                             <div class="d-flex justify-content-center mb-2">
                                 <a href="#" class="btn btn-sm btn-primary px-3 border-end"
-                                    style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                    style="border-radius: 30px 30px 30px 30px;">Show Page</a>
                             </div>
                         </div>
                     </div>
@@ -110,7 +110,7 @@
                             <p>Fusion cuisine in an intimate setting.</p>
                             <div class="d-flex justify-content-center mb-2">
                                 <a href="#" class="btn btn-sm btn-primary px-3 border-end"
-                                    style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                    style="border-radius: 30px 30px 30px 30px;">Show Page</a>
                             </div>
                         </div>
                     </div>
@@ -139,7 +139,7 @@
                             <p> Authentic Italian dishes, family-style.</p>
                             <div class="d-flex justify-content-center mb-2">
                                 <a href="#" class="btn btn-sm btn-primary px-3 border-end"
-                                    style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                    style="border-radius: 30px 30px 30px 30px;">Show Page</a>
                             </div>
                         </div>
                     </div>
@@ -164,8 +164,11 @@
                                 style="width: 100%;">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href="https://m.facebook.com/MarriottAmman"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href="https://www.instagram.com/ammanmarriott?igsh=dzY4OTFtbGoxOWRo"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square mx-1" href="https://m.facebook.com/MarriottAmman"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1"
+                                href="https://www.instagram.com/ammanmarriott?igsh=dzY4OTFtbGoxOWRo"><i
+                                    class="fab fa-instagram"></i></a>
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Sunset Vista Resort</h5>
@@ -180,8 +183,11 @@
                                 style="width: 100%;">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href="https://m.facebook.com/LandmarkAmman/"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href="https://www.instagram.com/landmarkhotelamman?igsh=NjNrNXNsbWw3d3A2"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square mx-1" href="https://m.facebook.com/LandmarkAmman/"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1"
+                                href="https://www.instagram.com/landmarkhotelamman?igsh=NjNrNXNsbWw3d3A2"><i
+                                    class="fab fa-instagram"></i></a>
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Emerald Valley Hotel</h5>
@@ -196,8 +202,11 @@
                                 style="width: 100%;">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href="https://www.facebook.com/crowneplaza?mibextid=LQQJ4d"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href="https://www.instagram.com/crowneplazadeadsea?igsh=ZHlmYjA3cGt6NjVy"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.facebook.com/crowneplaza?mibextid=LQQJ4d"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1"
+                                href="https://www.instagram.com/crowneplazadeadsea?igsh=ZHlmYjA3cGt6NjVy"><i
+                                    class="fab fa-instagram"></i></a>
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Lakeside Manor Hotel</h5>
@@ -212,8 +221,11 @@
                                 alt="" style="width: 100%;">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href="https://m.facebook.com/globalexcellenceaward/"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href="https://www.instagram.com/intercontinentaljordan?igsh=Mm1qN3lzZDFvMjJh"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square mx-1" href="https://m.facebook.com/globalexcellenceaward/"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1"
+                                href="https://www.instagram.com/intercontinentaljordan?igsh=Mm1qN3lzZDFvMjJh"><i
+                                    class="fab fa-instagram"></i></a>
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Royal Crest Lodge</h5>
@@ -235,7 +247,10 @@
             <div class="d-flex justify-content-center align-items-center">
                 <div class="row g-4">
                     <div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay="0.3s">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3374.953717758675!2d35.79776868064416!3d32.23241264433041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151c853900a4cce5%3A0xa07dc0839f8dc830!2sDibeen%20Forest%20Sanctuary!5e0!3m2!1sen!2sbd!4v1716148786739!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3374.953717758675!2d35.79776868064416!3d32.23241264433041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151c853900a4cce5%3A0xa07dc0839f8dc830!2sDibeen%20Forest%20Sanctuary!5e0!3m2!1sen!2sbd!4v1716148786739!5m2!1sen!2sbd"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>

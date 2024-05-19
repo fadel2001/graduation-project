@@ -110,7 +110,7 @@
                             <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
                             <div class="d-flex justify-content-center mb-2">
                                 <a href="#" class="btn btn-sm btn-primary px-3 border-end"
-                                    style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                    style="border-radius: 30px 30px 30px 30px;">Show Page</a>
                             </div>
                         </div>
                     </div>
@@ -139,7 +139,7 @@
                             <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
                             <div class="d-flex justify-content-center mb-2">
                                 <a href="#" class="btn btn-sm btn-primary px-3 border-end"
-                                    style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                    style="border-radius: 30px 30px 30px 30px;">Show Page</a>
                             </div>
                         </div>
                     </div>
@@ -164,8 +164,12 @@
                                 style="width: 100%;">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href="https://www.facebook.com/share/hKSUCCU4cZ6KYcAL/?mibextid=LQQJ4d"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href="https://www.instagram.com/movenpickamman?igsh=OWN0d3JkczUwOTk="><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square mx-1"
+                                href="https://www.facebook.com/share/hKSUCCU4cZ6KYcAL/?mibextid=LQQJ4d"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1"
+                                href="https://www.instagram.com/movenpickamman?igsh=OWN0d3JkczUwOTk="><i
+                                    class="fab fa-instagram"></i></a>
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Sunset Vista Resort</h5>
@@ -180,8 +184,12 @@
                                 style="width: 100%;">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href="https://www.facebook.com/share/oe1yeThp6VxijD3W/?mibextid=LQQJ4d"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href="https://www.instagram.com/gerasahotel?igsh=MXEzczBjbW5oNDV0Mg=="><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square mx-1"
+                                href="https://www.facebook.com/share/oe1yeThp6VxijD3W/?mibextid=LQQJ4d"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1"
+                                href="https://www.instagram.com/gerasahotel?igsh=MXEzczBjbW5oNDV0Mg=="><i
+                                    class="fab fa-instagram"></i></a>
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Emerald Valley Hotel</h5>
@@ -196,8 +204,11 @@
                                 style="width: 100%;">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href="https://www.facebook.com/LeRoyalAmman?mibextid=LQQJ4d"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href="https://www.instagram.com/leroyalamman_?igsh=aHVzcThvN2VhZDc1"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.facebook.com/LeRoyalAmman?mibextid=LQQJ4d"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1"
+                                href="https://www.instagram.com/leroyalamman_?igsh=aHVzcThvN2VhZDc1"><i
+                                    class="fab fa-instagram"></i></a>
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Lakeside Manor Hotel</h5>
@@ -212,8 +223,11 @@
                                 style="width: 100%;">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href="https://www.facebook.com/crowneplaza?mibextid=LQQJ4d"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href="https://www.instagram.com/crowneplazadeadsea?igsh=ZHlmYjA3cGt6NjVy"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.facebook.com/crowneplaza?mibextid=LQQJ4d"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1"
+                                href="https://www.instagram.com/crowneplazadeadsea?igsh=ZHlmYjA3cGt6NjVy"><i
+                                    class="fab fa-instagram"></i></a>
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Royal Crest Lodge</h5>
@@ -235,7 +249,10 @@
             <div class="d-flex justify-content-center align-items-center">
                 <div class="row g-4">
                     <div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay="0.3s">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d222065.38987871853!2d34.91032344299061!3d29.58124473948577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15007039ff2efa81%3A0x595faa556d2e6acc!2sAqaba%2C%20Jordan!5e0!3m2!1sen!2sbd!4v1716151340024!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d222065.38987871853!2d34.91032344299061!3d29.58124473948577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15007039ff2efa81%3A0x595faa556d2e6acc!2sAqaba%2C%20Jordan!5e0!3m2!1sen!2sbd!4v1716151340024!5m2!1sen!2sbd"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
