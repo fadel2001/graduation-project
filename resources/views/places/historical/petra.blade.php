@@ -80,7 +80,7 @@
                             </div>
                             <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end"
+                                <a href="https://mymomsreciperestaurant.com/" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 30px 30px 30px;">Show Page</a>
                             </div>
                         </div>
@@ -109,7 +109,7 @@
                             </div>
                             <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end"
+                                <a href="https://www.facebook.com/petranight" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 30px 30px 30px;">Show Page</a>
                             </div>
                         </div>
@@ -138,7 +138,7 @@
                             </div>
                             <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end"
+                                <a href="https://www.elan-restaurant.com/" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 30px 30px 30px;">Show Page</a>
                             </div>
                         </div>
@@ -164,8 +164,8 @@
                                 style="width: 100%;">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.facebook.com/ALL/"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.instagram.com/all/"><i class="fab fa-instagram"></i></a>
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Sunset Vista Resort</h5>
@@ -180,8 +180,8 @@
                                 style="width: 100%;">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.facebook.com/PetraGuestHouseHotel/"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.instagram.com/guesthousepetra/"><i class="fab fa-instagram"></i></a>
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Emerald Valley Hotel</h5>
@@ -196,8 +196,8 @@
                                 style="width: 100%;">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.facebook.com/marriottpetrahotel/"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.instagram.com/marriottpetrahotel/?hl=en"><i class="fab fa-instagram"></i></a>
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Lakeside Manor Hotel</h5>
@@ -212,8 +212,8 @@
                                 style="width: 100%;">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.facebook.com/MovenpickHotels"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.instagram.com/movenpickhotels/"><i class="fab fa-instagram"></i></a>
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Royal Crest Lodge</h5>
@@ -225,6 +225,22 @@
         </div>
     </div>
     <!-- Hotel End -->
+
+    <!-- location Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Location</h6>
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="row g-4">
+                    <div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay="0.3s">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1743163.2955924626!2d34.35630254194087!3d31.424709521689373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15016ef1703b6071%3A0x199bf908679a2291!2sPetra!5e0!3m2!1sen!2sjo!4v1716234757323!5m2!1sen!2sjo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- location End -->
 
 @endsection
 

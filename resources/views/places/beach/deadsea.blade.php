@@ -80,7 +80,7 @@
                             </div>
                             <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end"
+                                <a href="https://www.tripadvisor.com/Restaurant_Review-g951923-d4541281-Reviews-Burj_Al_Hamam-Sweimah_Dead_Sea_Region.html" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 30px 30px 30px;">Show Page</a>
                             </div>
                         </div>
@@ -109,7 +109,7 @@
                             </div>
                             <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end"
+                                <a href="https://www.tripadvisor.com/Restaurant_Review-g951923-d13188658-Reviews-1312-Sweimah_Dead_Sea_Region.html" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 30px 30px 30px;">Read More</a>
                             </div>
                         </div>
@@ -138,7 +138,7 @@
                             </div>
                             <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end"
+                                <a href="https://www.tripadvisor.com/Restaurant_Review-g951923-d6404239-Reviews-Buffalo_Wings_Rings_Dead_Sea-Sweimah_Dead_Sea_Region.html" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 30px 30px 30px;">Read More</a>
                             </div>
                         </div>

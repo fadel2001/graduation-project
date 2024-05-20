@@ -79,7 +79,7 @@
                             </div>
                             <p>Fresh seafood, ocean bounty.</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end"
+                                <a href="https://www.tripadvisor.com/Restaurant_Review-g1396864-d14905576-Reviews-Summaga_Cafe-Ajlun_Ajlun_Governorate.html" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 30px 30px 30px;">Show Page</a>
                             </div>
                         </div>
@@ -108,7 +108,7 @@
                             </div>
                             <p>Authentic Mexican fiesta.</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end"
+                                <a href="https://www.tripadvisor.com/Restaurant_Review-g1396864-d15695933-Reviews-Castle_View_Restaurant_and_Cafe-Ajlun_Ajlun_Governorate.html" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 30px 30px 30px;">Show Page</a>
                             </div>
                         </div>
@@ -137,7 +137,7 @@
                             </div>
                             <p>Health-conscious eats, vibrant flavors.</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end"
+                                <a href="https://www.tripadvisor.com/Restaurant_Review-g1396864-d24182510-Reviews-Jar_Al_Jabal_Resturant-Ajlun_Ajlun_Governorate.html" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 30px 30px 30px;">Show Page</a>
                             </div>
                         </div>

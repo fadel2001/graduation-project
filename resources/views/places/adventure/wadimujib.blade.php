@@ -80,7 +80,7 @@
                             </div>
                             <p>Modern comfort food in downtown.</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end"
+                                <a href="https://www.facebook.com/DiwanZaman?mibextid=LQQJ4d" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 30px 30px 30px;">Show Page</a>
                             </div>
                         </div>
@@ -109,7 +109,7 @@
                             </div>
                             <p>Authentic Japanese delights.</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end"
+                                <a href="https://www.facebook.com/alwadiehden?mibextid=LQQJ4d" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 30px 30px 30px;">Show Page</a>
                             </div>
                         </div>
@@ -138,7 +138,7 @@
                             </div>
                             <p>Cozy coffee and brunch spot.</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end"
+                                <a href="https://www.facebook.com/mrahsalameh?mibextid=LQQJ4d" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 30px 30px 30px;">Show Page</a>
                             </div>
                         </div>

@@ -80,7 +80,7 @@
                             </div>
                             <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end"
+                                <a href="https://www.truemarkets3d.net/3d-virtual-tour/siwar-alyasameen/restaurants.html" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 30px 30px 30px;">Show Page</a>
                             </div>
                         </div>
@@ -109,7 +109,7 @@
                             </div>
                             <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end"
+                                <a href="https://romerogroup.jo/restaurants/sufra/" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 30px 30px 30px;">Show Page</a>
                             </div>
                         </div>
@@ -138,7 +138,7 @@
                             </div>
                             <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end"
+                                <a href="https://www.fairmont.com/amman/dining/salt-steakhouse/?utm_source=google+Maps&utm_medium=seo+maps&utm_campaign=seo+maps" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 30px 30px 30px;">Show Page</a>
                             </div>
                         </div>
@@ -164,8 +164,8 @@
                                 style="width: 100%;">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square mx-1" href="https://m.facebook.com/crowneplaza"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.instagram.com/jordanproperties?igsh=MTc4Mng4dnkzMnpkcg=="><i class="fab fa-instagram"></i></a>
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Sunset Vista Resort</h5>
@@ -180,8 +180,8 @@
                                 style="width: 100%;">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square mx-1" href="https://m.facebook.com/crowneplaza"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.instagram.com/jordanproperties?igsh=MTc4Mng4dnkzMnpkcg=="><i class="fab fa-instagram"></i></a>
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Emerald Valley Hotel</h5>
@@ -196,8 +196,8 @@
                                 style="width: 100%;">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square mx-1" href="https://m.facebook.com/kempinskihotels"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.instagram.com/kempinskiishtar?igsh=MWF0azhnNno3YWEzdw=="><i class="fab fa-instagram"></i></a>
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Lakeside Manor Hotel</h5>
@@ -212,8 +212,8 @@
                                 alt="" style="width: 100%;">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square mx-1" href="https://m.facebook.com/Jordanpropertiesltd"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.instagram.com/zenithamman?igsh=MXM5eDNmeTE3d25xcA=="><i class="fab fa-instagram"></i></a>
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Royal Crest Lodge</h5>
@@ -225,6 +225,23 @@
         </div>
     </div>
     <!-- Hotel End -->
+
+    <!-- location Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Location</h6>
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="row g-4">
+                    <div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay="0.3s">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3436.633763731024!2d35.558258375080186!3d30.531393495336225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1503dfdeae5e6ee9%3A0x955a7c3f09c03796!2sShobak%20Castle%20-%20Montreal!5e0!3m2!1sen!2sjo!4v1716228864264!5m2!1sen!2sjo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- location End -->
 
 @endsection
 

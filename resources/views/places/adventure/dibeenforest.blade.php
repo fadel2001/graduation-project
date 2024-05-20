@@ -80,7 +80,7 @@
                             </div>
                             <p>Exotic flavors from around the world.</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end"
+                                <a href="https://www.tripadvisor.com/Restaurant_Review-g293988-d5220472-Reviews-Lo_Lo_t_Alrawda_Restaurant-Jerash_Jerash_Governorate.html" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 30px 30px 30px;">Show Page</a>
                             </div>
                         </div>
@@ -109,7 +109,7 @@
                             </div>
                             <p>Fusion cuisine in an intimate setting.</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end"
+                                <a href="https://www.tripadvisor.com/Restaurant_Review-g293988-d14021514-Reviews-Nowwara-Jerash_Jerash_Governorate.html" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 30px 30px 30px;">Show Page</a>
                             </div>
                         </div>
@@ -138,7 +138,7 @@
                             </div>
                             <p> Authentic Italian dishes, family-style.</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end"
+                                <a href="https://www.instagram.com/gh_restaurantandcafe/?igsh=cWdhYnphamJmcXFl" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 30px 30px 30px;">Show Page</a>
                             </div>
                         </div>

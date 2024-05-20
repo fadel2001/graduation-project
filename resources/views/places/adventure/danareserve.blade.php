@@ -80,7 +80,7 @@
                             </div>
                             <p>Parisian charm, French cuisine.</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end"
+                                <a href="https://www.tripadvisor.com/Restaurant_Review-g318873-d4105882-Reviews-Dana_Hotel-Dana_Tafilah_Governorate.html" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 30px 30px 30px;">Show Page</a>
                             </div>
                         </div>
@@ -109,7 +109,7 @@
                             </div>
                             <p>Indian culinary journey.</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end"
+                                <a href="https://www.tripadvisor.com/Restaurant_Review-g318873-d7776984-Reviews-Rainbow_Restaurant-Dana_Tafilah_Governorate.html" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 30px 30px 30px;">Show Page</a>
                             </div>
                         </div>
@@ -138,7 +138,7 @@
                             </div>
                             <p>Fresh seafood, ocean bounty.</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end"
+                                <a href="https://www.tripadvisor.com/Restaurant_Review-g318873-d5974130-Reviews-Fienans_Way_Restaurant-Dana_Tafilah_Governorate.html" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 30px 30px 30px;">Show Page</a>
                             </div>
                         </div>
