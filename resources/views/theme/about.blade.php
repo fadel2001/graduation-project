@@ -69,8 +69,8 @@
 <div class="container-xxl py-5">
     <div class="container">
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h6 class="section-title bg-white text-center text-primary px-3">Travel Guide</h6>
-            <h1 class="mb-5">Meet Our Guide</h1>
+            <h6 class="section-title bg-white text-center text-primary px-3">Website Admins</h6>
+            <h1 class="mb-5">Meet Our Admins</h1>
         </div>
         <div class="row g-4">
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -85,14 +85,14 @@
                     </div>
                     <div class="text-center p-4">
                         <h5 class="mb-0">Fadel Batayneh</h5>
-                        <small>Designation</small>
+                        <small>Leader</small>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="team-item">
                     <div class="overflow-hidden">
-                        <img class="img-fluid" src="{{ asset('assets') }}/img/team-22.jpg" alt="">
+                        <img class="img-fluid" src="{{ asset('assets') }}/img/team-2.jpg" alt="">
                     </div>
                     <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
                         <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -101,7 +101,7 @@
                     </div>
                     <div class="text-center p-4">
                         <h5 class="mb-0">Nada Al-Omari</h5>
-                        <small>Designation</small>
+                        <small>Manager</small>
                     </div>
                 </div>
             </div>
@@ -117,7 +117,7 @@
                     </div>
                     <div class="text-center p-4">
                         <h5 class="mb-0">Saja Obidat</h5>
-                        <small>Designation</small>
+                        <small>Manager</small>
                     </div>
                 </div>
             </div>
@@ -133,7 +133,7 @@
                     </div>
                     <div class="text-center p-4">
                         <h5 class="mb-0">Ikram Al-Mazari</h5>
-                        <small>Designation</small>
+                        <small>Designer</small>
                     </div>
                 </div>
             </div>
