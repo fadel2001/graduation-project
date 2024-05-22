@@ -2,7 +2,6 @@
     <nav class="px-4 py-3 navbar navbar-expand-lg navbar-light px-lg-5 py-lg-0">
         <a href="" class="p-0 navbar-brand">
             <h1 class="m-0 text-primary"><i class="fa fa-map-marker-alt me-3"></i>Explore Wonders</h1>
-            {{-- <img src="{{ asset('assets') }}/img/logo.png" alt="Logo"> --}}
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="fa fa-bars"></span>

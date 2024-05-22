@@ -82,7 +82,7 @@ class ThemeController extends Controller
     public function registerStore(Request $request)
     {
         $validatedData = $request->validate([
-            'name' => 'required|string|min:4|max:10',
+            'name' => 'required|string|min:4',
             'email' => 'required|string|email|max:255|unique:registers,email',
             'password' => 'required|min:6|confirmed',
         ]);

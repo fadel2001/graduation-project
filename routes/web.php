@@ -1,8 +1,10 @@
 <?php
 
+use App\Http\Controllers\BookingController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ThemeController;
 use App\Http\Controllers\CategoriesController;
+use App\Http\Controllers\PackageController;
 use App\Http\Controllers\PlacesController;
 use Illuminate\Support\Facades\Route;
 
@@ -22,8 +24,8 @@ Route::controller(ThemeController::class)->name('theme.')->group(function () {
     Route::get('/', 'index')->name('index');
     Route::get('/services', 'services')->name('services');
     Route::get('/destinations', 'destinations')->name('destinations');
-    Route::get('/packages', 'packages')->name('packages');
-    Route::get('/booking', 'booking')->name('booking');
+    Route::get('/packages', 'packages')->name('packages')->middleware('auth');
+    Route::get('/booking', 'booking')->name('booking')->middleware('auth');
     Route::get('/about', 'about')->name('about');
     Route::get('/contact', 'contact')->name('contact');
     Route::get('/singleBlog', 'singleBlog')->name('singleBlog');
@@ -32,6 +34,13 @@ Route::controller(ThemeController::class)->name('theme.')->group(function () {
     Route::post('/contact/store', 'store')->name('contact.store');
     Route::post('/booking/store', 'B')->name('booking.B');
 });
+
+// routes/web.php
+
+// Route::middleware(['auth'])->name('theme.')->group(function () {
+//     Route::get('/packages', [PackageController::class, 'packages'])->name('packages');
+// });
+
 
 Route::controller(ThemeController::class)->name('auth.')->group(function () {
     Route::get('/login', 'login')->name('login.store');
