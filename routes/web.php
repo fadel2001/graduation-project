@@ -35,12 +35,6 @@ Route::controller(ThemeController::class)->name('theme.')->group(function () {
     Route::post('/booking/store', 'B')->name('booking.B');
 });
 
-// routes/web.php
-
-// Route::middleware(['auth'])->name('theme.')->group(function () {
-//     Route::get('/packages', [PackageController::class, 'packages'])->name('packages');
-// });
-
 
 Route::controller(ThemeController::class)->name('auth.')->group(function () {
     Route::get('/login', 'login')->name('login.store');

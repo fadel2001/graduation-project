@@ -6,8 +6,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link
-    <!-- Google Web Fonts -->
+    <link <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link

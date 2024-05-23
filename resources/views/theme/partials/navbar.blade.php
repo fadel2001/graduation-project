@@ -29,16 +29,12 @@
                             aria-haspopup="true" Aria-expanded="False">{{ Auth::user()->name }}</a>
                         <ul class="dropdown-menu">
 
-
                             <form action="{{ route('logout') }}" method="post">
                                 @csrf
-                                <button type="submit" class="nav-link" href="blog-details.html">Logout</button>
+                                <a class="nav-link" href="javascript:$('form').submit();">Logout</a>
                             </form>
-
                         </ul>
                     </li>
-
-
                 </div>
             @endif
 
