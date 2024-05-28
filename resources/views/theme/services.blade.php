@@ -17,8 +17,10 @@
                     <div class="service-item rounded pt-3">
                         <div class="p-4">
                             <i class="fa fa-3x fa-globe text-primary mb-4"></i>
-                            <h5>WorldWide Tours</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            <h5>Jordanian Tours</h5>
+                            <p>offer an immersive experience of Jordan's cultural and natural wonders. Explore Petra, Wadi
+                                Rum, the Dead Sea, and ancient ruins in Jerash. Visit religious sites like Mount Nebo and
+                                enjoy the country's rich history and stunning landscapes.</p>
                         </div>
                     </div>
                 </div>
@@ -27,7 +29,7 @@
                         <div class="p-4">
                             <i class="fa fa-3x fa-hotel text-primary mb-4"></i>
                             <h5>Hotel Reservation</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            <p>Book accommodations in advance, ensuring a comfortable stay with flexible options.</p>
                         </div>
                     </div>
                 </div>
@@ -36,7 +38,8 @@
                         <div class="p-4">
                             <i class="fa fa-3x fa-user text-primary mb-4"></i>
                             <h5>Travel Guides</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            <p>Essential insights for navigating new destinations, including attractions, dining, and
+                                cultural norms.</p>
                         </div>
                     </div>
                 </div>
@@ -44,8 +47,8 @@
                     <div class="service-item rounded pt-3">
                         <div class="p-4">
                             <i class="fa fa-3x fa-cog text-primary mb-4"></i>
-                            <h5>Event Management</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            <h5>Packegs Management</h5>
+                            <p>Offer high quality, integrity and security tours with discounts of up to 30%</p>
                         </div>
                     </div>
                 </div>

@@ -153,8 +153,11 @@
                                 <img class="img-fluid" src="{{ asset('assets') }}/img/airline/royal.jpg" alt="">
                             </div>
                             <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square mx-1" href="https://www.facebook.com/RoyalJordanian"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1"
+                                    href="https://www.instagram.com/royaljordanian?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i
+                                        class="fab fa-instagram"></i></a>
                             </div>
                             <div class="text-center p-4">
                                 <h5 class="mb-0">Royal Jordanian</h5>
@@ -168,8 +171,11 @@
                                 <img class="img-fluid" src="{{ asset('assets') }}/img/airline/jordan.jpg" alt="">
                             </div>
                             <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square mx-1" href="https://www.facebook.com/JordanAviationTours"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1"
+                                    href="https://www.instagram.com/jordanaviation_jav?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i
+                                        class="fab fa-instagram"></i></a>
                             </div>
                             <div class="text-center p-4">
                                 <h5 class="mb-0">Jordan aviation</h5>
@@ -183,8 +189,11 @@
                                 <img class="img-fluid" src="{{ asset('assets') }}/img/airline/wizz.jpg" alt="">
                             </div>
                             <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square mx-1" href="https://www.facebook.com/wizzair"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1"
+                                    href="https://www.instagram.com/wizzair?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i
+                                        class="fab fa-instagram"></i></a>
                             </div>
                             <div class="text-center p-4">
                                 <h5 class="mb-0">Wizz air</h5>
@@ -198,8 +207,11 @@
                                 <img class="img-fluid" src="{{ asset('assets') }}/img/airline/arabia.jpg" alt="">
                             </div>
                             <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square mx-1" href="https://www.facebook.com/airarabiagroup"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1"
+                                    href="https://www.instagram.com/airarabiagroup?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i
+                                        class="fab fa-instagram"></i></a>
                             </div>
                             <div class="text-center p-4">
                                 <h5 class="mb-0">Air Arabia</h5>

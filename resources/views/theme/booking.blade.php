@@ -5,6 +5,7 @@
 @section('page', 'Booking')
 
 @section('content')
+
     <!-- Process Start -->
     <div class="container-xxl py-5">
         <div class="container">
@@ -57,9 +58,6 @@
     </div>
 
 
-
-
-
     <!-- Booking Start -->
     <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
@@ -68,19 +66,32 @@
                     <div class="col-md-6 text-white">
                         <h6 class="text-white text-uppercase">Booking</h6>
                         <h1 class="text-white mb-4">Online Booking</h1>
-                        <p class="mb-4">Welcome to our seamless travel experience brought to you by Online Booking. Say
-                            goodbye to the hassles of traditional reservation methods and hello to convenience at your
+                        <p class="mb-4">Welcome to our seamless travel experience brought to you by Online
+                            Booking. Say
+                            goodbye to the hassles of traditional reservation methods and hello to convenience at
+                            your
                             fingertips.</p>
-                        <p class="mb-4">With our intuitive platform integrated into our tourist website, planning your
-                            dream getaway has never been easier. From booking accommodations in top-rated hotels to securing
-                            tickets for must-see attractions, Online Booking simplifies the journey from exploration to
+                        <p class="mb-4">With our intuitive platform integrated into our tourist website, planning
+                            your
+                            dream getaway has never been easier. From booking accommodations in top-rated hotels to
+                            securing
+                            tickets for must-see attractions, Online Booking simplifies the journey from exploration
+                            to
                             adventure. </p>
-                        <p class="mb-4">Join us as we embark on a journey of effortless travel planning, all with the
+                        <p class="mb-4">Join us as we embark on a journey of effortless travel planning, all with
+                            the
                             click of a button.</p>
                         <a class="btn btn-outline-light py-3 px-5 mt-2" href="">Read More</a>
                     </div>
                     <div class="col-md-6">
                         <h1 class="text-white mb-4">Book A Tour</h1>
+
+                        @if (session('success'))
+                            <div class="alert alert-success">
+                                {{ session('success') }}
+                            </div>
+                        @endif
+
                         <form action="{{ route('theme.booking.B') }}" method="POST">
                             @csrf
                             <div class="row g-3">
@@ -204,6 +215,9 @@
                                             var baseCost = 20;
                                             var cost = selectedOptions * baseCost * multiplier;
                                             document.getElementById("costMessage").innerText = "Cost: $" + cost;
+
+                                            // Set the calculated cost in the hidden input field
+                                            document.getElementById("calculatedCost").value = cost;
                                         }
                                     </script>
                                 </div>
@@ -219,7 +233,8 @@
                                     </div>
                                 </div>
 
-                                <div class="col-12" id="costMessage" name="cost">Cost: $0</div>
+                                <input type="hidden" id="calculatedCost" name="cost">
+                                <div class="col-12" id="costMessage" name="costMessage">Cost: $0</div>
 
                                 <div class="col-12">
                                     <div class="form-floating">
@@ -229,7 +244,8 @@
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-outline-light w-100 py-3" type="submit">Book Now</button>
+                                    <button class="btn btn-outline-light w-100 py-3" type="submit">Book
+                                        Now</button>
                                 </div>
                             </div>
                         </form>
@@ -239,7 +255,7 @@
             </div>
         </div>
     </div>
-    <!-- Booking Start -->
+    <!-- Booking end -->
 @endsection
 
 @section('Path-area')

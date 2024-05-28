@@ -114,8 +114,6 @@ class ThemeController extends Controller
 
     public function B(Request $request)
     {
-
-
         $validatedData = $request->validate([
             'name' => 'required|string|max:255',
             'email' => 'required|email|max:255',
@@ -127,6 +125,6 @@ class ThemeController extends Controller
         ]);
 
         Booking::create($validatedData);
-        return redirect()->intended('/')->with('hi');
+        return redirect()->back()->with('success', 'Your booking was successful!, our team will contact you soon');
     }
 }
