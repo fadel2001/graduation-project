@@ -7,6 +7,8 @@ use App\Http\Controllers\CategoriesController;
 use App\Http\Controllers\PackageController;
 use App\Http\Controllers\PlacesController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PaymentController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -33,7 +35,11 @@ Route::controller(ThemeController::class)->name('theme.')->group(function () {
     // Change these routes to use POST method for form submissions
     Route::post('/contact/store', 'store')->name('contact.store');
     Route::post('/booking/store', 'B')->name('booking.B');
+    
+    
 });
+Route::get('/payment', [PaymentController::class, 'index'])->name('payment.index');
+
 
 
 Route::controller(ThemeController::class)->name('auth.')->group(function () {
@@ -91,5 +97,6 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
+
 
 require __DIR__ . '/auth.php';

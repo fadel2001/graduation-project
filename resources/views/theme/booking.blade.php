@@ -1,3 +1,4 @@
+
 @extends('theme.master')
 @section('title', 'Booking')
 @section('text', 'Booking')
@@ -243,13 +244,19 @@
                                         <label for="message">Special Request</label>
                                     </div>
                                 </div>
-                                <div class="col-12">
+                                <div class="col-6">
                                     <button class="btn btn-outline-light w-100 py-3" type="submit">Book
                                         Now</button>
                                 </div>
+                                
                             </div>
                         </form>
                         <button class="btn btn-primary" onclick="calculateCost()">Calculate Cost</button>
+                        <form action="{{ route('payment.index') }}" method="get" id="paymentForm">
+                            <div class="col-6">
+                                <button class="btn btn-outline-light w-100 py-3" type="submit" form="paymentForm">Make Payment</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
