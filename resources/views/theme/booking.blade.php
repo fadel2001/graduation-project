@@ -24,7 +24,7 @@
                         <h5 class="mt-4">Choose A Destination</h5>
                         <hr class="w-25 mx-auto bg-primary mb-1">
                         <hr class="w-50 mx-auto bg-primary mt-0">
-                        <p class="mb-0">Explore and choose your perfect destination with us, we are offering a all kinds of tourism experiences that are tailored to your interests.</p>
+                        <p class="mb-0">Explore and choose your perfect destination with us, we are offering all kinds of tourism experiences that are tailored to your interests.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.3s">
