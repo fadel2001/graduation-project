@@ -1,4 +1,3 @@
-
 @extends('theme.master')
 @section('title', 'Booking')
 @section('text', 'Booking')
@@ -24,7 +23,8 @@
                         <h5 class="mt-4">Choose A Destination</h5>
                         <hr class="w-25 mx-auto bg-primary mb-1">
                         <hr class="w-50 mx-auto bg-primary mt-0">
-                        <p class="mb-0">Explore and choose your perfect destination with us, we are offering all kinds of tourism experiences that are tailored to your interests.</p>
+                        <p class="mb-0">Explore and choose your perfect destination with us, we are offering all kinds of
+                            tourism experiences that are tailored to your interests.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.3s">
@@ -36,7 +36,8 @@
                         <h5 class="mt-4">Book Your Trip Online</h5>
                         <hr class="w-25 mx-auto bg-primary mb-1">
                         <hr class="w-50 mx-auto bg-primary mt-0">
-                        <p class="mb-0">Simplify your travel planning by booking your trip online. Choose your desired destinations, accommodations, and activities with ease.</p>
+                        <p class="mb-0">Simplify your travel planning by booking your trip online. Choose your desired
+                            destinations, accommodations, and activities with ease.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.5s">
@@ -48,7 +49,8 @@
                         <h5 class="mt-4">Embark on Your Journey</h5>
                         <hr class="w-25 mx-auto bg-primary mb-1">
                         <hr class="w-50 mx-auto bg-primary mt-0">
-                        <p class="mb-0">Get ready to experience the wonders of Jordan firsthand. Pack your bags and prepare for an unforgettable adventure!</p>
+                        <p class="mb-0">Get ready to experience the wonders of Jordan firsthand. Pack your bags and
+                            prepare for an unforgettable adventure!</p>
                     </div>
                 </div>
             </div>
@@ -245,13 +247,14 @@
                                     <button class="btn btn-outline-light w-100 py-3" type="submit">Book
                                         Now</button>
                                 </div>
-                                
+
                             </div>
                         </form>
                         <button class="btn btn-primary" onclick="calculateCost()">Calculate Cost</button>
                         <form action="{{ route('payment.index') }}" method="get" id="paymentForm">
                             <div class="col-6">
-                                <button class="btn btn-outline-light w-100 py-3" type="submit" form="paymentForm">Make Payment</button>
+                                <button class="btn btn-outline-light w-100 py-3" type="submit" form="paymentForm">Make
+                                    Payment</button>
                             </div>
                         </form>
                     </div>
