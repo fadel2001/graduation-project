@@ -28,8 +28,8 @@
                     <div class="service-item rounded pt-3">
                         <div class="p-4">
                             <i class="fa fa-3x fa-hotel text-primary mb-4"></i>
-                            <h5>Hotel Reservation</h5>
-                            <p>Book accommodations in advance, ensuring a comfortable stay with flexible options.</p>
+                            <h5>Hotel&Resturant Recomndation</h5>
+                            <p>ensuring a comfortable stay with flexible options.</p>
                         </div>
                     </div>
                 </div>

@@ -18,6 +18,7 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::get('/video', [App\Http\Controllers\VideoController::class, 'show']);
 
 // This route for redirect to the overall pages
 Route::controller(ThemeController::class)->name('theme.')->group(function () {

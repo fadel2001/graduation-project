@@ -18,7 +18,7 @@
                 <div class="pt-3 rounded service-item">
                     <div class="p-4">
                         <i class="mb-4 fa fa-3x fa-hotel text-primary"></i>
-                        <h5>Hotel Reservation</h5>
+                        <h5>Hotel Recomendation</h5>
                         <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
                     </div>
                 </div>
@@ -37,7 +37,7 @@
                     <div class="p-4">
                         <i class="mb-4 fa fa-3x fa-cog text-primary"></i>
                         <h5>Event Management</h5>
-                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam </p>
                     </div>
                 </div>
             </div>

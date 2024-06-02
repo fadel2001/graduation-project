@@ -10,7 +10,11 @@
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h6 class="section-title bg-white text-center text-primary px-3">Adventure</h6>
+                <h3>Adventure tourism is tourism that involves any kind of activity or adventure. It especially relates to those that involve risk, or requires extensive planning. The Adventure Travel Trade Association defines it as a tourist activity that includes physical activity, cultural exchange, or activities in nature.</h3>
+                <h1>_______________</h1>
+                <h1>               </h1>
                 <h1 class="mb-5">Popular Places</h1>
+
             </div>
             <div class="row g-3">
                 <div class="col-lg-7 col-md-6">

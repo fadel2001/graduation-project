@@ -79,9 +79,9 @@
                         <img class="img-fluid" src="{{ asset('assets') }}/img/team-1.jpg" alt="">
                     </div>
                     <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                        <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square mx-1" href="https://www.facebook.com/share/RavrFWxkfPGcXPcc/?mibextid=qi2Omg"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square mx-1" href="mailto:fmbatayneh20@cit.just.edu.jo"><i class="fas fa-envelope"></i></a>
+                        <a class="btn btn-square mx-1" href="https://www.instagram.com/fadel_bataineh?igsh=MXRtY2g3ZHZzazBvbQ=="><i class="fab fa-instagram"></i></a>
                     </div>
                     <div class="text-center p-4">
                         <h5 class="mb-0">Fadel Batayneh</h5>
@@ -95,9 +95,9 @@
                         <img class="img-fluid" src="{{ asset('assets') }}/img/team-2.jpg" alt="">
                     </div>
                     <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                        <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square mx-1" href="https://www.facebook.com/share/9gfXm5UJgcJccf24/?mibextid=qi2Omg"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square mx-1" href="mailto:ndalomari20@cit.just.edu.jo"><i class="fas fa-envelope"></i></a>
+                        <a class="btn btn-square mx-1" href="https://www.instagram.com/itss_nada02?igsh=a2Q3djExaHczb2o0"><i class="fab fa-instagram"></i></a>
                     </div>
                     <div class="text-center p-4">
                         <h5 class="mb-0">Nada Al-Omari</h5>
@@ -111,9 +111,9 @@
                         <img class="img-fluid" src="{{ asset('assets') }}/img/team-3.jpg" alt="">
                     </div>
                     <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                        <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square mx-1" href="https://www.facebook.com/share/SKEWziMkLrd68YAK/?mibextid=qi2Omg"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square mx-1" href="mailto:smobiedat20@cit.just.edu.jo"><i class="fas fa-envelope"></i></a>
+                        <a class="btn btn-square mx-1" href="https://www.instagram.com/sajaobeidat19?igsh=dGkyd2o2NGdyenE2"><i class="fab fa-instagram"></i></a>
                     </div>
                     <div class="text-center p-4">
                         <h5 class="mb-0">Saja Obidat</h5>
@@ -127,9 +127,10 @@
                         <img class="img-fluid" src="{{ asset('assets') }}/img/team-4.jpg" alt="">
                     </div>
                     <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                        <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square mx-1" href="https://www.facebook.com/share/PswL6wwvTKc9a6qB/?mibextid=qi2Omg"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square mx-1" href="mailto:ialmazari20@cit.just.edu.jo"><i class="fas fa-envelope"></i></a>
+
+                        <a class="btn btn-square mx-1" href="https://www.instagram.com/ikram.almazari?igsh=MWhnbnJvbXd5cG44dA=="><i class="fab fa-instagram"></i></a>
                     </div>
                     <div class="text-center p-4">
                         <h5 class="mb-0">Ikram Al-Mazari</h5>

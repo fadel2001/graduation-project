@@ -1,143 +1,46 @@
 @extends('theme.master')
 @section('title', 'Index')
-@section('text', 'Enjoy Your Vacation With Us')
-@section('home-active', 'active')
 
+@section('home-active', 'active')
+@section('text', 'Enjoy Your Trip With Us!')
 
 @section('content')
     <!-- About Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-110 h-110" src="{{ asset('assets') }}/img/welcome.jpeg"
-                            alt="" style="object-fit: cover;">
-                    </div>
-                </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
-                    <h1 class="mb-4">Welcome to <span class="text-primary">Explore Wonder</span></h1>
-                    <p class="mb-4">A website dedicated to tourism in Jordan providing comprehensive information about
-                        tourist attractions, events, accommodation services and restaurants. With a user-friendly design and
-                        offering content in English, the website includes visitor reviews, information on transportation and
-                        recreational activities, promotion of cultural and natural experiences in Jordan, and
-                        tourist-favorite restaurants Which contributes to attracting visitors and enhancing their tourism
-                        experience.</p>
-                    <p class="mb-4">ًWe like you ,are very upset about committing to a mandatory travel program. That is
-                        why we have given each person the opportunity to draw his own journey and write his story with his
-                        own hand.</p>
+                    <h6 class="section-title bg-white text-start text-primary pe-3">Hello in JORDAN</h6>
 
-                    <div class="row gy-2 gx-4 mb-4">
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Carefully selected packages
-                            </p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Constantly updated
-                                information</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>5 Star Accommodations
-                            </p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Latest Model Vehicles
-                            </p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Premium
-                                Tours</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>24/7 Service</p>
-                        </div>
-                    </div>
-                    <p class="text-center"><span class="highlight" style="background-color: lightgreen;">We hope that all
-                            stories end in beautiful way</span></p>
+                    <h1 class="mb-4">Welcome to <span class="text-primary">Explore Wonder</span></h1>
+                    <p class="mb-4"> <p>Welcome to Explore Wonder, your ultimate guide to the enchanting land of Jordan. Discover ancient cities, breathtaking landscapes, and a rich cultural heritage that dates back millennia.
+                         Whether you're seeking adventure in the desert, relaxation by the Dead Sea, or a journey through history in Petra, Jordan has something for every traveler.
+                         Embark on a journey of discovery and let us help you create unforgettable memories in this remarkable country.</p>.</p>
+
+
+                    <p class="text-center"><span class="highlight" style="background-color: lightgreen;"> From Irbid to Aqaba ,Welcome</span></p>
 
                 </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <video width="800" height="360" loop autoplay muted>
+                        <source src="{{ asset('videos/video.mp4') }}" type="video/mp4">
+
+
             </div>
         </div>
         <!-- About End -->
 
 
-        <!-- Team Start -->
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="section-title bg-white text-center text-primary px-3">Website Admins</h6>
-                    <h1 class="mb-5">Meet Our Admins</h1>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="team-item">
-                            <div class="overflow-hidden">
-                                <img class="img-fluid" src="{{ asset('assets') }}/img/team-1.jpg" alt="">
-                            </div>
-                            <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                            <div class="text-center p-4">
-                                <h5 class="mb-0">Fadel Batayneh</h5>
-                                <small>Leader</small>
-                            </div>
-                        </div>
+                    <h6 class="section-title bg-white text-center text-primary px-3">Explore Wonder Wall</h6>
+                    <div class="image-row" display: flex >
+                        <img class="img-fluid" src="{{ asset('assets') }}/img/gaza.jpg" alt="">
+
                     </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="team-item">
-                            <div class="overflow-hidden">
-                                <img class="img-fluid" src="{{ asset('assets') }}/img/team-2.jpg" alt="">
-                            </div>
-                            <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                            <div class="text-center p-4">
-                                <h5 class="mb-0">Nada Al-Omari</h5>
-                                <small>Manager</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-item">
-                            <div class="overflow-hidden">
-                                <img class="img-fluid" src="{{ asset('assets') }}/img/team-3.jpg" alt="">
-                            </div>
-                            <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                            <div class="text-center p-4">
-                                <h5 class="mb-0">Saja Obiedat</h5>
-                                <small>Manager</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="team-item">
-                            <div class="overflow-hidden">
-                                <img class="img-fluid" src="{{ asset('assets') }}/img/team-4.jpg" alt="">
-                            </div>
-                            <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                            <div class="text-center p-4">
-                                <h5 class="mb-0">Ikram Al-Mazari</h5>
-                                <small>Designer</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Team End -->
 
         <!-- airlines Start -->
         <div class="container-xxl py-5">
