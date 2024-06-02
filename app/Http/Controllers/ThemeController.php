@@ -64,6 +64,11 @@ class ThemeController extends Controller
         return view('register');
     }
 
+    // public function payment()
+    // {
+    //     // $cost = session('cost');
+    //     return view('theme.partials.payment');
+    // }
 
     public function store(Request $request)
     {
