@@ -36,8 +36,8 @@ Route::controller(ThemeController::class)->name('theme.')->group(function () {
     // Change these routes to use POST method for form submissions
     Route::post('/contact/store', 'store')->name('contact.store');
     Route::post('/booking/store', 'B')->name('booking.B');
-    
-    
+
+
 });
 Route::get('/payment', [PaymentController::class, 'index'])->name('payment.index');
 
@@ -99,9 +99,8 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-<<<<<<< HEAD
-require __DIR__ . '/auth.php';
-=======
 
 require __DIR__ . '/auth.php';
->>>>>>> 09331501a75d8ed8aac7cad270d60923b66e8312
+
+
+require __DIR__ . '/auth.php';

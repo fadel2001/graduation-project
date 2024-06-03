@@ -15,8 +15,7 @@
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <h5>Get In Touch</h5>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam
-                        et eos</p>
+
                     <div class="mb-4 d-flex align-items-center">
                         <div class="flex-shrink-0 d-flex align-items-center justify-content-center bg-primary"
                             style="width: 50px; height: 50px;">
