@@ -135,7 +135,7 @@
                     </div>
                     <div class="p-4 text-center">
                         <h5 class="mb-0">Ikram Al-Mazari</h5>
-                        {{-- <big>Designer</big> --}}
+                        <big>Designer</big>
                     </div>
                 </div>
             </div>
