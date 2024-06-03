@@ -242,18 +242,20 @@
                                     </div>
                                 </div>
                                 <div class="col-6">
+                                    <button class="btn btn-primary" onclick="calculateCost()">Calculate Cost</button>
+
                                     <button class="btn btn-outline-light w-100 py-3" type="submit">Book
                                         Now</button>
                                 </div>
                                 
                             </div>
                         </form>
-                        <button class="btn btn-primary" onclick="calculateCost()">Calculate Cost</button>
-                        <form action="{{ route('payment.index') }}" method="get" id="paymentForm">
+                        {{-- <button class="btn btn-primary" onclick="calculateCost()">Calculate Cost</button> --}}
+                        {{-- <form action="{{ route('payment.index') }}" method="get" id="paymentForm">
                             <div class="col-6">
                                 <button class="btn btn-outline-light w-100 py-3" type="submit" form="paymentForm">Make Payment</button>
                             </div>
-                        </form>
+                        </form> --}}
                     </div>
                 </div>
             </div>

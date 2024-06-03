@@ -99,9 +99,10 @@
                         <a class="mx-1 btn btn-square" href="mailto:ndalomari20@cit.just.edu.jo"><i class="fas fa-envelope"></i></a>
                         <a class="mx-1 btn btn-square" href="https://www.instagram.com/itss_nada02?igsh=a2Q3djExaHczb2o0"><i class="fab fa-instagram"></i></a>
                     </div>
-                    <div class="p-4 text-center">
-                        <h5 class="mb-0">Nada Al-omari</h5>
-                        <big>Developer</big>
+
+                    <div class="text-center p-4">
+                        <h5 class="mb-0">Nada Al-Omari</h5>
+                        <small>Develpoer</small>
                     </div>
                 </div>
             </div>
@@ -117,7 +118,7 @@
                     </div>
                     <div class="p-4 text-center">
                         <h5 class="mb-0">Saja Obidat</h5>
-                        <big>Developer</big>
+                        <small>Develpoer</small>
                     </div>
                 </div>
             </div>
@@ -134,7 +135,7 @@
                     </div>
                     <div class="p-4 text-center">
                         <h5 class="mb-0">Ikram Al-Mazari</h5>
-                        <big>Designer</big>
+                        {{-- <big>Designer</big> --}}
                     </div>
                 </div>
             </div>
