@@ -20,6 +20,7 @@ use App\Http\Controllers\PaymentController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::get('/video', [App\Http\Controllers\VideoController::class, 'show']);
 
 // This route for redirect to the overall pages
 Route::controller(ThemeController::class)->name('theme.')->group(function () {
@@ -35,8 +36,8 @@ Route::controller(ThemeController::class)->name('theme.')->group(function () {
     // Change these routes to use POST method for form submissions
     Route::post('/contact/store', 'store')->name('contact.store');
     Route::post('/booking/store', 'B')->name('booking.B');
-    
-    
+
+
 });
 Route::get('/payment', [PaymentController::class, 'index'])->name('payment.index');
 
@@ -97,6 +98,9 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
+
+
+require __DIR__ . '/auth.php';
 
 
 require __DIR__ . '/auth.php';
