@@ -203,13 +203,7 @@
                         <img class="img-fluid" src="{{ asset('assets') }}/img/hyndai.jpeg" alt="">
                     </div>
                     <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-<<<<<<< HEAD
-                        <a class="mx-1 btn btn-square" href=" https://www.facebook.com/HyundaiJordan/"><i class="fab fa-facebook"></i></a>
-=======
 
-                        <a class="mx-1 btn btn-square" href="https://www.instagram.com/beitsitti/?hl=en"><i
-                                class="fab fa-instagram"></i></a>
->>>>>>> 470a2a1272b6ecdff6d7c71cecddbce1a1f1a05a
                     </div>
 
                     <div class="p-4 text-center">
