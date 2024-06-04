@@ -36,12 +36,12 @@
                                     class="fa fa-map-marker-alt text-primary me-2"></i>AjlonCastle|UmmQais|
                                 AjlonForest</small>
                             <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-calendar-alt text-primary me-2"></i>3 Jun</small>
+                                    class="fa fa-calendar-alt text-primary me-2"></i>12 Jun</small>
                             <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2
                                 Person</small>
                         </div>
                         <div class="text-center p-4">
-                            <h3 class="mb-0">$100.00</h3> $<del>120.00</del>
+                            <h3 class="mb-0">$25</h3> $<del>45</del>
                             <div class="mb-3">
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
@@ -49,9 +49,9 @@
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                             </div>
-                            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
+                            {{-- <p>One-day journey through Northern Jordan, exploring the historic Ajloun Castle, ancient ruins of Umm Qais, and Ajloun Forest. Join us on June 12 for an unforgettable adventure, all for just $25 per person!</p> --}}
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end"
+                                <a href="{{ route('readmore.package1') }}" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 0 0 30px;">Read More</a>
                                 <a href="{{ route('theme.booking') }}" class="btn btn-sm btn-primary px-3"
                                     style="border-radius: 0 30px 30px 0;">Book Now</a>
@@ -73,12 +73,12 @@
                             <small class="flex-fill text-center border-end py-2"><i
                                     class="fa fa-map-marker-alt text-primary me-2"></i>Aqaba|Petra</small>
                             <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-calendar-alt text-primary me-2"></i>5 Sep</small>
+                                    class="fa fa-calendar-alt text-primary me-2"></i>15 june</small>
                             <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>3
                                 Person</small>
                         </div>
                         <div class="text-center p-4">
-                            <h3 class="mb-0">$110.00</h3> $<del>120.00</del>
+                            <h3 class="mb-0">$60</h3> $<del>85</del>
                             <div class="mb-3">
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
@@ -86,9 +86,9 @@
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                             </div>
-                            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
+                            {{-- <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p> --}}
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end"
+                                <a href="{{ route('readmore.package2') }}" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 0 0 30px;">Read More</a>
                                 <a href="{{ route('theme.booking') }}" class="btn btn-sm btn-primary px-3"
                                     style="border-radius: 0 30px 30px 0;">Book Now</a>
@@ -111,12 +111,12 @@
                             <small class="flex-fill text-center border-end py-2"><i
                                     class="fa fa-map-marker-alt text-primary me-2"></i>DeadSea|DibeenForest</small>
                             <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-calendar-alt text-primary me-2"></i>25 Oct</small>
+                                    class="fa fa-calendar-alt text-primary me-2"></i>25 june</small>
                             <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2
                                 Person</small>
                         </div>
                         <div class="text-center p-4">
-                            <h3 class="mb-0">$70.00</h3> $<del>80.00</del>
+                            <h3 class="mb-0">$90</h3> $<del>150</del>
                             <div class="mb-3">
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
@@ -124,9 +124,8 @@
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                             </div>
-                            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end"
+                                <a href="{{ route('readmore.package3') }}" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 0 0 30px;">Read More</a>
                                 <a href="{{ route('theme.booking') }}" class="btn btn-sm btn-primary px-3"
                                     style="border-radius: 0 30px 30px 0;">Book Now</a>
@@ -167,6 +166,7 @@
                             <i class="fa fa-dollar-sign fa-3x text-white"></i>
                         </div>
                         <h5 class="mt-4">Book Your Trip Online</h5>
+                        <h5 class="mt-4">Book Your Trip Online</h5>
                         <hr class="w-25 mx-auto bg-primary mb-1">
                         <hr class="w-50 mx-auto bg-primary mt-0">
                         <p class="mb-0">Simplify your travel planning by booking your trip online. Choose your desired
@@ -179,6 +179,7 @@
                             style="width: 100px; height: 100px;">
                             <i class="fa fa-plane fa-3x text-white"></i>
                         </div>
+                        <h5 class="mt-4">Embark on Your Journey</h5>
                         <h5 class="mt-4">Embark on Your Journey</h5>
                         <hr class="w-25 mx-auto bg-primary mb-1">
                         <hr class="w-50 mx-auto bg-primary mt-0">

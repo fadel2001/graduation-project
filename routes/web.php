@@ -7,7 +7,8 @@ use App\Http\Controllers\CategoriesController;
 use App\Http\Controllers\PackageController;
 use App\Http\Controllers\PlacesController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\PaymentController;
+// use App\Http\Controllers\PaymentController;
+use App\Http\Controllers\ReadmoreController;
 
 
 /*
@@ -39,9 +40,13 @@ Route::controller(ThemeController::class)->name('theme.')->group(function () {
 
 
 });
-Route::get('/payment', [PaymentController::class, 'index'])->name('payment.index');
+// Route::get('/payment', [PaymentController::class, 'index'])->name('payment.index');
 
-
+Route::controller(ReadmoreController::class)->name('readmore.')->group(function() {
+    Route::get('/package1' , 'package1')->name('package1');
+    Route::get('/package2' , 'package2')->name('package2');
+    Route::get('/package3' , 'package3')->name('package3');
+});
 
 Route::controller(ThemeController::class)->name('auth.')->group(function () {
     Route::get('/login', 'login')->name('login.store');
@@ -99,8 +104,6 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-
 require __DIR__ . '/auth.php';
 
 
-require __DIR__ . '/auth.php';

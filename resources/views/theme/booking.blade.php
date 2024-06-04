@@ -110,6 +110,7 @@
                                     </div>
                                 </div>
 
+
                                 <div class="col-md-6">
                                     <div class="form-floating">
                                         <select class="form-select bg-transparent" id="select1" name="destination"
@@ -220,6 +221,7 @@
                                             document.getElementById("calculatedCost").value = cost;
                                         }
                                     </script>
+
                                 </div>
 
                                 <div class="col-md-6">
@@ -234,7 +236,15 @@
                                 </div>
 
                                 <input type="hidden" id="calculatedCost" name="cost">
-                                <div class="col-12" id="costMessage" name="costMessage">Cost: $0</div>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-md-8" id="costMessage" name="costMessage">Cost: $0</div>
+                                        <div class="col-md-4">
+                                            <button class="btn btn-primary w-100" type="button"
+                                                onclick="calculateCost()">Calculate Cost</button>
+                                        </div>
+                                    </div>
+                                </div>
 
                                 <div class="col-12">
                                     <div class="form-floating">
@@ -247,16 +257,16 @@
                                     <button class="btn btn-outline-light w-100 py-3" type="submit">Book
                                         Now</button>
                                 </div>
-
                             </div>
                         </form>
-                        <button class="btn btn-primary" onclick="calculateCost()">Calculate Cost</button>
-                        <form action="{{ route('payment.index') }}" method="get" id="paymentForm">
+
+
+                        {{-- <form action="{{ route('payment.index') }}" method="get" id="paymentForm">
                             <div class="col-6">
                                 <button class="btn btn-outline-light w-100 py-3" type="submit" form="paymentForm">Make
                                     Payment</button>
                             </div>
-                        </form>
+                        </form> --}}
                     </div>
                 </div>
             </div>
