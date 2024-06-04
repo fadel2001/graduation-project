@@ -146,8 +146,8 @@
 <div class="py-5 container-xxl">
     <div class="container">
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h3 class="px-3 text-center bg-white section-title text-primary">Explore Wonder Partener</h3>
-            <h1 class="mb-5">4 top partener</h1>
+            <h3 class="px-3 text-center bg-white section-title text-primary">Explore Wonder Sponsers</h3>
+            <h1 class="mb-5">4 top Sponsers</h1>
         </div>
         <div class="row g-4">
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -169,16 +169,15 @@
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="team-item">
                     <div class="overflow-hidden">
-                        <img class="img-fluid" src="{{ asset('assets') }}/img/beit.jpeg" alt="">
+                        <img class="img-fluid" src="{{ asset('assets') }}/img/hyndai.jpeg" alt="">
                     </div>
                     <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-
-                        <a class="mx-1 btn btn-square"
-                            href="https://www.instagram.com/beitsitti/?hl=en"><i
-                                class="fab fa-instagram"></i></a>
+                        <a class="mx-1 btn btn-square" href=" https://www.facebook.com/HyundaiJordan/"><i class="fab fa-facebook"></i></a>
                     </div>
+
                     <div class="p-4 text-center">
-                        <h5 class="mb-0">Beit Sitti</h5>
+
+                        <h5 class="mb-0">Hondai</h5>
 
                     </div>
                 </div>
@@ -186,37 +185,19 @@
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="team-item">
                     <div class="overflow-hidden">
-                        <img class="img-fluid" src="{{ asset('assets') }}/img/wejha.jpg" alt="">
+                        <img class="img-fluid" src="{{ asset('assets') }}/img/fine.jpeg" alt="">
                     </div>
                     <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                        <a class="mx-1 btn btn-square" href="https://www.wejhtak.com/ar/site/sections"><i class="fab fa-google"></i></a>
+                        <a class="mx-1 btn btn-square" href="https://jordan.finestore.com/"><i class="fab fa-google"></i></a>
 
 
                     </div>
                     <div class="p-4 text-center">
-                        <h5 class="mb-0">Wejhatak</h5>
+                        <h5 class="mb-0">Fine</h5>
 
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                <div class="team-item">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid" src="{{ asset('assets') }}/img/jo.jpeg" alt="">
-                    </div>
-                    <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
 
-                        <a class="mx-1 btn btn-square"
-                            href="https://www.instagram.com/joe_hattab/?hl=en"><i
-                                class="fab fa-instagram"></i></a>
-                    </div>
-                    <div class="p-4 text-center">
-                        <h5 class="mb-0">Jo Hattab</h5>
 
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 @endsection
