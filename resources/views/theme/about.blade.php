@@ -164,7 +164,7 @@
                     </div>
                     <div class="p-4 text-center">
                         <h5 class="mb-0">Ikram Al-Mazari</h5>
-                        <big>Designer</big>
+                        <small>Designer</small>
                     </div>
                 </div>
             </div>
@@ -219,12 +219,12 @@
                         <img class="img-fluid" src="{{ asset('assets') }}/img/fine.jpeg" alt="">
                     </div>
                     <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-<<<<<<< HEAD
-                        <a class="mx-1 btn btn-square" href="https://jordan.finestore.com/"><i class="fab fa-google"></i></a>
-=======
-                        <a class="mx-1 btn btn-square" href="https://www.wejhtak.com/ar/site/sections"><i
+                        <<<<<<< HEAD <a class="mx-1 btn btn-square" href="https://jordan.finestore.com/"><i
                                 class="fab fa-google"></i></a>
->>>>>>> 470a2a1272b6ecdff6d7c71cecddbce1a1f1a05a
+                            =======
+                            <a class="mx-1 btn btn-square" href="https://www.wejhtak.com/ar/site/sections"><i
+                                    class="fab fa-google"></i></a>
+                            >>>>>>> 470a2a1272b6ecdff6d7c71cecddbce1a1f1a05a
 
 
                     </div>
@@ -236,4 +236,4 @@
             </div>
 
 
-@endsection
+        @endsection

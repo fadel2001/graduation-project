@@ -41,7 +41,7 @@
                                 Person</small>
                         </div>
                         <div class="text-center p-4">
-                            <h3 class="mb-0">$25</h3> $<del>45</del>
+                            <h3 class="mb-0">$100</h3> $<del>120</del>
                             <div class="mb-3">
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
@@ -49,7 +49,6 @@
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                             </div>
-                            {{-- <p>One-day journey through Northern Jordan, exploring the historic Ajloun Castle, ancient ruins of Umm Qais, and Ajloun Forest. Join us on June 12 for an unforgettable adventure, all for just $25 per person!</p> --}}
                             <div class="d-flex justify-content-center mb-2">
                                 <a href="{{ route('readmore.package1') }}" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 0 0 30px;">Read More</a>
@@ -78,7 +77,7 @@
                                 Person</small>
                         </div>
                         <div class="text-center p-4">
-                            <h3 class="mb-0">$60</h3> $<del>85</del>
+                            <h3 class="mb-0">$90</h3> $<del>120</del>
                             <div class="mb-3">
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
@@ -86,7 +85,6 @@
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                             </div>
-                            {{-- <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p> --}}
                             <div class="d-flex justify-content-center mb-2">
                                 <a href="{{ route('readmore.package2') }}" class="btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 0 0 30px;">Read More</a>
@@ -116,7 +114,7 @@
                                 Person</small>
                         </div>
                         <div class="text-center p-4">
-                            <h3 class="mb-0">$90</h3> $<del>150</del>
+                            <h3 class="mb-0">$70</h3> $<del>80</del>
                             <div class="mb-3">
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
@@ -166,7 +164,6 @@
                             <i class="fa fa-dollar-sign fa-3x text-white"></i>
                         </div>
                         <h5 class="mt-4">Book Your Trip Online</h5>
-                        <h5 class="mt-4">Book Your Trip Online</h5>
                         <hr class="w-25 mx-auto bg-primary mb-1">
                         <hr class="w-50 mx-auto bg-primary mt-0">
                         <p class="mb-0">Simplify your travel planning by booking your trip online. Choose your desired
@@ -179,7 +176,6 @@
                             style="width: 100px; height: 100px;">
                             <i class="fa fa-plane fa-3x text-white"></i>
                         </div>
-                        <h5 class="mt-4">Embark on Your Journey</h5>
                         <h5 class="mt-4">Embark on Your Journey</h5>
                         <hr class="w-25 mx-auto bg-primary mb-1">
                         <hr class="w-50 mx-auto bg-primary mt-0">

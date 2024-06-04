@@ -22,7 +22,7 @@
                         remarkable country.</p>.</p>
 
 
-                    <p class="text-center"><span class="highlight" style="background-color: lightgreen;"> From Irbid to Aqaba
+                    <p class="text-center"><span class="highlight" style="background-color: lightgreen;"> From North To South
                             ,Welcome</span></p>
 
                 </div>
@@ -72,7 +72,11 @@
                                             </div>
                                             <div class="p-4 text-center">
                                                 <h5 class="mb-0">Royal Jordanian</h5>
-                                                <small>Designation</small>
+                                                <small class="fa fa-star text-primary"></small>
+                                                <small class="fa fa-star text-primary"></small>
+                                                <small class="fa fa-star text-primary"></small>
+                                                <small class="fa fa-star text-primary"></small>
+                                                <small class="fa fa-star text-primary"></small>
                                             </div>
                                         </div>
                                     </div>
@@ -93,7 +97,11 @@
                                             </div>
                                             <div class="p-4 text-center">
                                                 <h5 class="mb-0">Jordan aviation</h5>
-                                                <small>Designation</small>
+                                                <small class="fa fa-star text-primary"></small>
+                                                <small class="fa fa-star text-primary"></small>
+                                                <small class="fa fa-star text-primary"></small>
+                                                <small class="fa fa-star text-primary"></small>
+                                                <small class="fa fa-star text-primary"></small>
                                             </div>
                                         </div>
                                     </div>
@@ -113,7 +121,11 @@
                                             </div>
                                             <div class="p-4 text-center">
                                                 <h5 class="mb-0">Wizz air</h5>
-                                                <small>Designation</small>
+                                                <small class="fa fa-star text-primary"></small>
+                                                <small class="fa fa-star text-primary"></small>
+                                                <small class="fa fa-star text-primary"></small>
+                                                <small class="fa fa-star text-primary"></small>
+                                                <small class="fa fa-star text-primary"></small>
                                             </div>
                                         </div>
                                     </div>
@@ -134,7 +146,11 @@
                                             </div>
                                             <div class="p-4 text-center">
                                                 <h5 class="mb-0">Air Arabia</h5>
-                                                <small>Designation</small>
+                                                <small class="fa fa-star text-primary"></small>
+                                                <small class="fa fa-star text-primary"></small>
+                                                <small class="fa fa-star text-primary"></small>
+                                                <small class="fa fa-star text-primary"></small>
+                                                <small class="fa fa-star text-primary"></small>
                                             </div>
                                         </div>
                                     </div>
