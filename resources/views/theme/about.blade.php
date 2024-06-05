@@ -172,11 +172,13 @@
     </div>
 </div>
 <!-- Team End -->
+
+<!-- sponsers start -->
 <div class="py-5 container-xxl">
     <div class="container">
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
             <h3 class="px-3 text-center bg-white section-title text-primary">Explore Wonder Sponsers</h3>
-            <h1 class="mb-5">4 top Sponsers</h1>
+            <h1 class="mb-5">3 top Sponsers</h1>
         </div>
         <div class="row g-4">
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -188,49 +190,39 @@
                         <a class="mx-1 btn btn-square"
                             href="https://www.expedia.com/Cars?locale=en_US&siteid=1&semcid=US.B.GOOGLE.BT-c-EN.CAR&semdtl=a118255096950.b1139506546617.g1kwd-396244913.e1c.m1Cj0KCQjw0_WyBhDMARIsAL1Vz8tcfFiOE0eaw8HFUO3XSLdSkvpFfAeEVxAt9l0_fHO6Tso1ByGWYlMaAkuPEALw_wcB.r1f66e41a5ac91de8f49c69c3d61e7d82b839697edbf3aea64e36c1cefe6619cba.c1cJi46vaJwA7J4yxspFZ2kw.j19069818.k1.d1624810779661.h1e.i1.l1.n1.o1.p1.q1.s1.t1.x1.f1.u1.v1.w1&gad_source=1&gclid=Cj0KCQjw0_WyBhDMARIsAL1Vz8tcfFiOE0eaw8HFUO3XSLdSkvpFfAeEVxAt9l0_fHO6Tso1ByGWYlMaAkuPEALw_wcB"><i
                                 class="fab fa-google"></i></a>
-
-
                     </div>
                     <div class="p-4 text-center">
                         <h5 class="mb-0">Expedia</h5>
-
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
                 <div class="team-item">
                     <div class="overflow-hidden">
                         <img class="img-fluid" src="{{ asset('assets') }}/img/hyndai.jpeg" alt="">
                     </div>
                     <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-
+                        <a class="mx-1 btn btn-square" href="https://www.honda-mideast.com/ar-jo"><i
+                                class="fab fa-google"></i></a>
                     </div>
-
                     <div class="p-4 text-center">
-
                         <h5 class="mb-0">Hondai</h5>
-
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="team-item">
                     <div class="overflow-hidden">
                         <img class="img-fluid" src="{{ asset('assets') }}/img/fine.jpeg" alt="">
                     </div>
                     <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                        <<<<<<< HEAD <a class="mx-1 btn btn-square" href="https://jordan.finestore.com/"><i
+                        <a class="mx-1 btn btn-square" href="https://jordan.finestore.com/"><i
                                 class="fab fa-google"></i></a>
-                            =======
-                            <a class="mx-1 btn btn-square" href="https://www.wejhtak.com/ar/site/sections"><i
-                                    class="fab fa-google"></i></a>
-                            >>>>>>> 470a2a1272b6ecdff6d7c71cecddbce1a1f1a05a
-
-
                     </div>
                     <div class="p-4 text-center">
                         <h5 class="mb-0">Fine</h5>
-
                     </div>
                 </div>
             </div>
