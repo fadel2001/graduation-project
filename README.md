@@ -1,3 +1,18 @@
+# image
+![Home1](https://github.com/fadel2001/graduation-project/assets/134233711/f289cb7e-7d73-4dd9-90e6-0212bcac587c)
+![Welcome](https://github.com/fadel2001/graduation-project/assets/134233711/a44988ed-3f32-4c46-b61a-3e1c1fb7ee10)
+![services-Page](https://github.com/fadel2001/graduation-project/assets/134233711/0f5bd585-663a-4291-9eb6-6deb9caa6a04)
+![Destination-Page](https://github.com/fadel2001/graduation-project/assets/134233711/a07bbedf-696e-4f49-a898-f4ed71efea41)
+![reg-page](https://github.com/fadel2001/graduation-project/assets/134233711/9ef66eff-a5b7-4205-98f5-8a676bf90930)
+![login-page](https://github.com/fadel2001/graduation-project/assets/134233711/11be7bfb-b7f7-4745-9a2f-1210c2859c3a)
+![packege-page](https://github.com/fadel2001/graduation-project/assets/134233711/f314c8e8-311c-4d43-8159-6abdc7445a8f)![booking-page](https://github.com/fadel2001/graduation-project/assets/134233711/1068e2dd-abe9-4b38-b67f-5f79769dae03)
+![about- age](https://github.com/fadel2001/graduation-project/assets/134233711/47284f09-36f8-4cfb-b3c6-7602dc5c1995)
+![contact-page](https://github.com/fadel2001/graduation-project/assets/134233711/d644ff7f-884a-49f9-a37c-a0c7b08b541d)
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
